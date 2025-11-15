@@ -337,7 +337,7 @@ Lim, K. T. (2021, February 10). Singapore: Food Security despite the Odds. Food 
 
 Loh, R. (2024, October 19). With several farms closing or struggling to break even, what is the future for agriculture in Singapore? CNA. https://www.channelnewsasia.com/today/big-read/high-tech-low-returns-farming-4684566
 
-NC State. (2021). Supporting Cyanobacterial Bloom Monitoring with Satellite Imagery | NC State Extension Publications. Content.ces.ncsu.edu. https://content.ces.ncsu.edu/supporting-cyanobacterial-bloom-monitoring-with-satellite-imagery
+NC State. (2021). Supporting Cyanobacterial Bloom Monitoring with Satellite Imagery NC State Extension Publications. Content.ces.ncsu.edu. https://content.ces.ncsu.edu/supporting-cyanobacterial-bloom-monitoring-with-satellite-imagery
 
 Noyma, N. P., de Magalhães, L., Furtado, L. L., Mucci, M., van Oosterhout, F., Huszar, V. L. M., Marinho, M. M., & Lürling, M. (2016). Controlling cyanobacterial blooms through effective flocculation and sedimentation with combined use of flocculants and phosphorus adsorbing natural soil and modified clay. Water Research, 97, 26–38. https://doi.org/10.1016/j.watres.2015.11.057
 
@@ -357,7 +357,7 @@ Saqrane, S., ghazali, I. E., Ouahid, Y., Hassni, M. E., Hadrami, I. E., Bouarab,
 
 Saunders, J., & Smith, T. (2010). Malnutrition: Causes and consequences. Clinical Medicine, 10(6), 624–627. https://doi.org/10.7861/clinmedicine.10-6-624
 
-ScienceDirect. (2016). Duckweed - an overview | ScienceDirect Topics. Sciencedirect.com. https://www.sciencedirect.com/topics/earth-and-planetary-sciences/duckweed
+ScienceDirect. (2016). Duckweed - an overview ScienceDirect Topics. Sciencedirect.com. https://www.sciencedirect.com/topics/earth-and-planetary-sciences/duckweed
 
 Serrà, A., Philippe, L., & Gómez, E. (2021). Removal of Cyanobacteria and Cyanotoxins in Waters. Toxins, 13(9), 636. https://doi.org/10.3390/toxins13090636
 
@@ -365,7 +365,7 @@ SFA. (2023, December 13). Agriculture Technologies. Default. https://www.sfa.gov
 
 Singapore Green Plan 2030. (2024). Our Targets. Www.greenplan.gov.sg. https://www.greenplan.gov.sg/targets/
 
-Tabarin, A., Celeste M., L., J. Benoit, C., & Blandine, G.-C. (n.d.). Limit of Quantitation - an overview | ScienceDirect Topics. Www.sciencedirect.com. https://www.sciencedirect.com/topics/nursing-and-health-professions/limit-of-quantitation
+Tabarin, A., Celeste M., L., J. Benoit, C., & Blandine, G.-C. (n.d.). Limit of Quantitation - an overview ScienceDirect Topics. Www.sciencedirect.com. https://www.sciencedirect.com/topics/nursing-and-health-professions/limit-of-quantitation
 
 Tan. (2019). Malnutrition. Healthhub.sg. https://www.healthhub.sg/health-conditions/malnutrition
 
