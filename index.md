@@ -209,7 +209,10 @@ As the sensor plays the pivotal role to trigger any actions, it is important tha
 3. Load 6 µL of solution into the sample injection point on the hemacytometer (Figure 1).
 4. Place the counting chamber on the stage of the microscope and focus on the cells.
 5. Count the cells in the squares labelled A to E (Figure 1).
-6. Calculate cell concentration using:cell concentration (cells/mL) = total cells counted volume of the compartments counted dilution factor volume counted=number of squaresvolume of each square
+6. Calculate cell concentration using:cell concentration (cells/mL) = total cells counted volume of the compartments counted dilution factor volume counted=number of squares volume of each square
+
+![Figure L](3.2_cell_count.png)
+
 7. Keep remaining suspension as stock solution for calibration curve dilutions. 
 
 3.2.3. *Absorbance Measurements*
@@ -229,6 +232,9 @@ As the sensor plays the pivotal role to trigger any actions, it is important tha
 4. Repeat the process until you have produced 10 dilutions. After each dilution, mix well and use a new pipette tip for the next dilution.
 5. Measure the optical density of the stock and diluted cell suspensions using UV-Vis spectrophotometer.
 6. Calculate absorbance using the Beer-Lambert Law: A=lc where A: absorbance, =: molar absorptivity, l=1 cm: path length of the cuvette and c: cell concentration
+
+![Figure M](beer.png)
+
 7. Plot absorbance against cell concentration to obtain a calibration curve. 
 
 
@@ -277,7 +283,13 @@ One of the most widely used methods for cyanotoxin removal is activated carbon a
 
 To confirm whether the biosensor accurately tracks cyanobacteria pigment concentrations and population density. 
 1. Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. sensor derived cell concentration=mcell count+b
+
+![Figure N](sensor_cell.png)
+
 2. Calculate the accuracy using percent error=sensor estimate-cell countcell count100%
+
+![Figure O](percent_error.png)
+
 3. Refine calibration if needed, using regression analysis to improve the mapping between optical signal and actual cell concentrations.
 
 
@@ -285,9 +297,14 @@ To confirm whether the biosensor accurately tracks cyanobacteria pigment concent
 
 Validate that the biosensor can reliably detect concentrations at or below 0.075 μg/mL, ensuring it meets the early warning design specification. 
 1. Plot sensor readings against the UV spectrometer absorbance values.
+
+![Figure P](sensor_ab.png)
+
 2. Perform regression analysis to determine correlation and establish a calibration equation.sensor absorbance values=nUV spectrometer absorbance values+c
 3. Calculate the limit of detection (LOD) and limit of quantification (LOQ) using (Tabarin et al., n.d.):LOD=3.3  SD of Blankn and LOQ=10  SD of Blankn
 - SD of Blank is the standard deviation of 5 blank measurements of the growth medium using the sensor. 
+
+![Figure Q](lod.png)
 
 <br> **4.5. Impact of Filter on The Duckweed Tank System**
 
@@ -419,4 +436,13 @@ Ziegler, P., Appenroth, K. J., & Sree, K. S. (2023). Survival Strategies of Duck
 
 
 # Appendix
+
+Definitions of Key Terms 
+1. Undernourished: The prevalence of undernourishment is defined as the proportion of the population in each country who, on a regular basis, consume food in amounts that are insufficient to provide the energy required for a normal, active and healthy life. (FAO et al., 2025)
+2. Malnutrition: Malnutrition is a serious condition that occurs when a person does not receive the right amount of nutrients. (Tan, 2019) 
+
+**Calculations**
+
 ![Figure D](Hemacytometer.png)
+
+![Figure R](hema_eqn.png)
