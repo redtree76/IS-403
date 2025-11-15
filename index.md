@@ -15,7 +15,7 @@ Throughout history, humans have continuously faced the challenge of producing en
 
 **1.1.1 Increasing Food Production**
 
-Success in increasing food production has continued in recent years. Globally, hunger levels have dropped, with the percentage of undernourished (Appendix) decreasing from 12% to 8%. 
+Success in increasing food production has continued in recent years. Globally, hunger levels have dropped, with the percentage of undernourished (Appendix) decreasing from 12% to 8%. (FAO et al., 2025) 
 
 **1.1.2. Beyond Food Production: The Other Dimensions of Food Insecurity**
 
