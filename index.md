@@ -25,7 +25,7 @@ While the physical food availability is important, it is only one aspect of food
 
 A major conundrum of modern food systems is the decline in nutritional quality. The focus on high-yield, fast-growing crop varieties, coupled with the intensive use of chemical fertilisers and pesticides, has gradually reduced the levels of essential vitamins and minerals in staple foods. Research shows that modern crops such as rice, wheat and maize contain lower concentrations of nutrients like iron, zinc and protein compared to traditional varieties. (Bhardwaj et al., 2024) Furthermore, monoculture farming and soil degradation have limited the diversity of nutrients available in our diets. (Kaur et al., 2024)
 
-Simultaneously, global diets have shifted towards highly processed, calorie-dense but nutrient-poor foods. (Popkin & Ng, 2021) This trend widens dietary inequality as nutritious food becomes more expensive to produce and less accessible. Resultantly, individuals who rely primarily on affordable and convenient unhealthy options are more susceptible to maladies such as weakened immune system and mental health problems due to malnutrition (Appendix). (Saunders & Smith, 2010)
+Simultaneously, global diets have shifted towards highly processed, calorie-dense but nutrient-poor foods. (Popkin & Ng, 2021) This trend widens dietary inequality as nutritious food becomes more expensive to produce and less accessible. (Hoenink et al., 2024) Resultantly, individuals who rely primarily on affordable and convenient unhealthy options are more susceptible to maladies such as weakened immune system and mental health problems due to malnutrition (Appendix). (Saunders & Smith, 2010)
 	
 **1.1.4. The Fourth Agricultural Revolution**
 
