@@ -176,7 +176,7 @@ Numbers of sampling sites
 
 1. Centrifuge 10 mL of cell suspension for 10 mins at 3000 x g. Discard the supernatant. (Rudi et al., 1998)
 2. Resuspend the pellet in 8 mL of deionised water.
-3. Load 6µL of solution into the sample injection point on the hemacytometer (Figure 1).
+3. Load 6 µL of solution into the sample injection point on the hemacytometer (Figure 1).
 4. Place the counting chamber on the stage of the microscope and focus on the cells.
 5. Count the cells in the squares labelled A to E (Figure 1).
 6. Calculate cell concentration using:cell concentration (cells/mL) = total cells counted volume of the compartments counted dilution factor volume counted=number of squaresvolume of each square
