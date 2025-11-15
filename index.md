@@ -74,6 +74,7 @@ Decision-making in indoor farms can be improved by leveraging real-time data col
 
 **1.4. Interaction between Cyanobacteria and Duckweed**
 
+Cyanobacteria can establish populations in the water during duckweed cultivation. Even at concentrations as low as 0.075µg/mL, cyanobacteria significantly reduce duckweed growth and chlorophyll content. (Saqrane et al., 2007) Duckweed is a free floating plant and cyanobacteria at these concentrations often remain at the water surface alongside the plants. (Delgopiatof et al., 2024) Thus, it is important to maintain low cyanobacteria levels in cultivation systems to optimize duckweed growth and protein yield.
 
 # 2. Design Product
 **2.1. Value Proposition** 
