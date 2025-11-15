@@ -5,46 +5,47 @@ layout: home
 
 **CDE4301 IS-403**
 
-## 1. Introduction (Shannen) 
-**1.1 Food Insecurity**
+# 1. Introduction (Shannen) 
+**1.1. Food Insecurity**
 
 Food insecurity is the lack of consistent access to enough safe and nutritious food for normal growth and development. (Anthem, 2025) It prevents people from maintaining an active and healthy lifestyle. There are a multitude of factors that plague communities and contribute to food insecurity. Examples include climate change affecting crop yields, poverty limiting people’s ability to afford food, conflicts and wars disrupting food supply chains and poor infrastructure making it harder for food to reach those in need. (World Food Program USA, 2025)
 
 Throughout history, humans have continuously faced the challenge of producing enough food to sustain an ever-growing population. To adapt, three major revolutions in agriculture have taken place. During the First Agricultural Revolution, people shifted from hunting and gathering to farming and domesticating animals, allowing for more stable food sources. With the advent of the Industrial Revolution, the Second Agricultural Revolution introduced mechanisation, crop rotation and selective breeding, greatly increasing agricultural productivity. (Park, 2022) The Green Revolution then gained momentum in the 1900s and replaced traditional methods of cultivation. It involved new high-yield crop varieties, synthetic fertilisers, pesticides and irrigation systems, which significantly boosted global food production and helped reduce famine in developing countries. (Pereira, 2009) Advances in science and technology have enabled us to produce food more efficiently, feeding a growing global population. 
 
 
-**1.1.1 Increasing Food Production**
+1.1.1. *Increasing Food Production*
 
 Success in increasing food production has continued in recent years. Globally, hunger levels have dropped, with the percentage of undernourished (Appendix) decreasing from 12% to 8%. (FAO et al., 2025) 
 
-**1.1.2. Beyond Food Production: The Other Dimensions of Food Insecurity**
+1.1.2. *Beyond Food Production: The Other Dimensions of Food Insecurity*
 
 While the physical food availability is important, it is only one aspect of food insecurity. Economic and physical access to food, food utilisation and stability of these factors are equally critical. (World Bank Group, 2025) In the pursuit of productivity and profit, issues such as rising food prices, environmental degradation and social inequalities were often overlooked or even exacerbated. (Dorward, 2013) More importantly, many people still do not receive adequate nutrition from the food they consume, highlighting that availability alone does not guarantee food security. (Bhardwaj et al., 2024)
 
-**1.1.3. Decreasing Nutritional Content in Food Produced**
+1.1.3. *Decreasing Nutritional Content in Food Produced*
 
 A major conundrum of modern food systems is the decline in nutritional quality. The focus on high-yield, fast-growing crop varieties, coupled with the intensive use of chemical fertilisers and pesticides, has gradually reduced the levels of essential vitamins and minerals in staple foods. Modern crops such as rice, wheat and maize contain lower concentrations of nutrients like iron, zinc and protein compared to traditional varieties. (Bhardwaj et al., 2024) Furthermore, monoculture farming and soil degradation have limited the diversity of nutrients available in our diets. (Kaur et al., 2024)
 
 Simultaneously, global diets have shifted towards highly processed, calorie-dense but nutrient-poor foods. (Popkin & Ng, 2021) This trend widens dietary inequality as nutritious food becomes more expensive to produce and less accessible. (Hoenink et al., 2024) Resultantly, individuals who rely primarily on affordable and convenient unhealthy options are more susceptible to maladies such as weakened immune system and mental health problems due to malnutrition (Appendix). (Saunders & Smith, 2010)
 	
-**1.1.4. The Fourth Agricultural Revolution**
+1.1.4. *The Fourth Agricultural Revolution*
 
 The Fourth Agricultural Revolution, also known as Agriculture 4.0 or smart farming, represents the next phase in agricultural transformation. Its two core components are precision agriculture and advanced technological integration. Precision agriculture focuses on targeted management of soil, water and nutrient inputs to help crops reach optimal growth while minimising waste. The second component involves the use of advanced technologies such as artificial intelligence (AI), the Internet of Things (IoT), robotics and big data analysis. (Javaid et al., 2022) Together, these approaches enable real-time monitoring of soil conditions, crop health and resource use, allowing farmers to optimise inputs like water and fertilisers, thereby improving yields without depleting natural resources. (Verdouw et al., 2021)
 
 Addressing food insecurity today requires a dual focus: not only increasing food production but also improving the nutritional quality of food and ensuring equitable access. Agriculture 4.0 provides an opportunity to achieve this balance by emphasising sustainability and data-driven decision-making. 
 
 
+
 **1.2. Food Insecurity in Singapore**
 
-**1.2.1. The Urgent Need for Food Security**
+1.2.1. *The Urgent Need for Food Security*
 
 Due to land scarcity and the lack of natural resources, Singapore imports more than 90% of its food and only 1% of its land is allocated for agricultural use. This heavy reliance on imports is not sustainable as global supply chains are vulnerable to disruptions from climate change, political instability or pandemics. To address this, the Singapore Food Agency (SFA) has implemented the “Three Food Baskets” strategy. It focuses on diversifying food import sources to reduce dependency on any single country, growing overseas by investing in food production abroad and growing locally. (Lim, 2021) With regard to local food production, as part of the Singapore Green Plan 2030, the nation aims to produce 30% of its nutritional needs locally by 2030. (Singapore Green Plan 2030, 2024) Measures supporting this goal include community gardening programs (Teng & Montesclaros, 2017), funding research for sustainable urban farming (Tan, 2022) and promoting indoor farms. (Begum, 2022) Despite these initiatives, Singapore continues to face challenges in achieving substantial local food production with the 2030 target imminent. (Tham, 2024)
 
-**1.2.2. Indoor Farming**
+1.2.2. *Indoor Farming*
 
 Indoor farm refers to the cultivation of crops in a controlled and enclosed environment. (SFA, 2023)  It involves different methods such as vertical farming, hydroponics, aeroponics, and aquaponics. These allow for food to be produced year-round, more sustainably and safely. (Kish, 2024) Locally, the efficient use of limited land and stable supply are crucial. The government has actively funded and supported indoor farms, albeit with limited success, as many continue to struggle due to high costs of operations, stringent regulations and a shortage of highly skilled labour. (Loh, 2024) Thus, the focus has shifted toward funding the adoption of advanced technology including automated farming equipment and infrastructure. (Begum, 2025a)
 
-**1.2.3. Why Indoor Farming Remains Essential**
+1.2.3. *Why Indoor Farming Remains Essential*
 
 Singaporean consumers often choose locally grown produce for its freshness, safety and lack of pesticides, while those who prefer imported food do so because of lower prices, greater variety and perceived better taste and quality. (Tham, 2024) With the adoption of Agriculture 4.0 technologies, indoor farms have the potential to address these gaps. Precision agriculture can help improve efficiency, optimise resource use and enhance crop quality. (Rathor et al., 2024) Over time, these advancements could reduce production costs and expand the variety of locally grown produce, allowing indoor farms to better meet consumer expectations while maintaining their inherent advantages. Furthermore, the Singapore Green Plan 2030 was recently postponed to 2035, with renewed plans to support indoor farms and revised targets to increase production of both vegetable and protein. While progress is slow, it is premature to abandon efforts to expand indoor farms and investment in these farms cannot be overlooked. (Begum, 2025b)
 
@@ -54,11 +55,11 @@ Having established the challenges of food insecurity and potential of indoor far
 
 To mitigate this problem, we aim to support indoor farms in enhancing nutritional content through three key areas: controlling cyanobacteria growth, cultivating microgreens and implementing sensor-based monitoring.
 
-**1.3.1. Cyanobacteria Growth**
+1.3.1. *Cyanobacteria Growth*
 
 While indoor farms have reduced many potential contaminants, cyanobacteria continue to pose a significant challenge as they compete with plants for essential nutrients, reducing plant growth and consequently, the nutritional content of it. (Wang et al., 2021) Additionally, cyanobacteria can form biofilms that harbour pathogens and produce toxins, posing further risks. They are pervasive, growing rapidly in many areas, from pipes to irrigation lines. Regular maintenance is therefore essential, including weekly inspections, mechanical cleaning and chlorine-based disinfection. (An et al., 2024)
 
-**1.3.2. Shifting Focus: Microgreens Over Regular Greens**
+1.3.2. *Shifting Focus: Microgreens over Regular Greens*
 
 Shifting indoor farm production towards microgreens instead of traditional leafy greens offers multiple benefits. Microgreens grow faster and are more nutrient-dense, containing higher levels of vitamins, minerals and antioxidants than mature greens. This allows indoor farms to produce more nutritious food in less time and using limited space. (Bhaswant et al., 2023)
 
@@ -68,7 +69,7 @@ Our microgreen of choice is duckweed, a rapidly growing and high-protein food so
 While duckweed doubles in biomass within 3 days so it can be harvested a few times a week (ScienceDirect, 2016), Pak Choi can only be harvested every 3 weeks. (NParks, 2023) Thus, cultivating duckweed allows indoor farms to produce more protein quickly and easily. Already consumed in countries such as Thailand, duckweed demonstrates considerable potential as a future food ingredient. (Zięć et al., 2025) With continued research and development, it could play a valuable role in promoting nutritious diets while providing a highly productive alternative to traditional greens. 
 
 
-**1.3.3. Sensor-based Monitoring**
+1.3.3. *Sensor-based Monitoring*
 
 Decision-making in indoor farms can be improved by leveraging real-time data collected through sensors, a key element of precision agriculture. These sensors monitor critical factors such as environmental conditions and nutrient levels, enabling farmers to make informed, timely decisions that optimise plant growth, maximise nutritional content and prevent potential issues before they affect yield or quality. (Verdouw et al., 2021)
 
@@ -91,7 +92,7 @@ We were inspired by Dr. Yuchen Long’s research on duckweed, and through the co
 
 Our target users are small and medium enterprises (SMEs) indoor farms in Singapore. We aim to provide a solution that is affordable, easy to maintain and simple to operate, while ensuring reliable detection performance. To meet these goals, the design of our optical cyanobacteria sensor is guided by the following considerations: 
 
-**2.3.1. Practical Considerations** 
+2.3.1. *Practical Considerations*
 
 
 | |  |
@@ -100,7 +101,7 @@ Our target users are small and medium enterprises (SMEs) indoor farms in Singapo
 |  **Portability** | The sensor must be compact and lightweight to support relocation within multi-tank facilities. Transfers should be quick and non-disruptive to farming operations.  |
 | **Ease of use** | The sensor should be simple to operate for users with minimal technical training. Sensor readings and real-time cyanobacteria concentrations must be easily accessible and clearly interpreted. This includes an intuitive user interface, clear display of results and guided workflow. Furthermore, users can collect readings without disturbing the duckweed or water system.  |
 
-**2.3.2. Technical Considerations**
+2.3.2. *Technical Considerations*
 
 | |  |
 | :--- | :--- |
@@ -120,7 +121,7 @@ Our proposed design is made out of three components.
 
 **3.1 Sensor** 
 
-**3.1.1. State-of-the-Art Review** (Jingten)
+3.1.1. *State-of-the-Art Review* (Jingten)
 
 Monitoring cyanobacteria is critical in water quality management and agriculture. However, most existing methods are designed for large scale environments like lakes, reservoirs and drinking water systems, and their application to compact, controlled setups like indoor duckweed farms remains limited. Current methods that are commonly used suffer from the trade-off between convenience and accuracy. 
 	
@@ -132,7 +133,7 @@ Currently most optical sensors used for field research are fluorescence-based. W
 	
 To simplify the complex system and lower the cost of production, our project focuses on absorbance-based sensors. While it has lower accuracy compared to the fluorescence-based sensor, it is a necessary trade-off for it to address the limitation of cost and complexity in existing sensor systems.
 
-**3.1.2. Development of the Optical Sensor** (Isaac)
+3.1.2. *Development of the Optical Sensor* (Isaac)
 
 We have developed 4 concepts and will assess which concept best addresses the design requirements.
 
@@ -152,14 +153,14 @@ Separated External Battery
 |  **Separated External** | Separated External Line Power | Separated External Battery |
 
 
-**3.1.3. Points of Consideration** (Isaac) 
+3.1.3. *Points of Consideration* (Isaac) 
 
 Location of the sensor (depth)
 Numbers of sampling sites
 
 **3.2. Calibration Curve Relating Absorbance and Concentration of Cyanobacteria** (Shannen) 
 
-**3.2.1. Cell Culture**
+3.2.1. *Cell Culture*
 
 Prepare 50 mL of growth medium in a flask using the same nutrient composition for duckweed growth. 
 Use a portion of the duckweed culture solution as the inoculum to initiate the cyanobacteria culture. 
@@ -168,7 +169,7 @@ Allow the culture to grow in the same temperature and light conditions used for 
 Take regular measurements to determine when the culture concentration reaches 1x108 cells/mL, using the cell counting protocol below. 
 Repeat steps 1-5 to prepare additional cyanobacteria cultures and grow for the determined incubation periods. 
 
-**3.2.2. Cell Count**
+3.2.2. *Cell Count*
 
 Centrifuge 10 mL of cell suspension for 10 mins at 3000 x g. Discard the supernatant. (Rudi et al., 1998)
 Resuspend the pellet in 8 mL of deionised water. 
@@ -179,7 +180,7 @@ Calculate cell concentration using:cell concentration (cells/mL) = total cells c
 volume counted=number of squaresvolume of each square
 Keep remaining suspension as stock solution for calibration curve dilutions. 
 
-**3.2.3. Absorbance Measurements**
+3.2.3. *Absorbance Measurements*
 
 Set the wavelength as 665 nm on the UV-Vis spectrophotometer.
 Pipette 1 mL of deionised water into the reference and sampling cuvette. 
@@ -187,7 +188,7 @@ Wipe the cuvette surface and place the reference and sampling cuvette in the spe
 Blank the background medium absorbance.
 Pipette 1 mL of cell suspension into the sampling cuvette and measure absorbance. 
 
-**3.2.4. Standard Calibration Curve**
+3.2.4. *Standard Calibration Curve*
 
 Mix the cell suspension and prepare dilution series in deionised water.
 Mix 2 mL of the given cell culture with 2 mL of deionised water (1:2) in a centrifuge tube (10 mL capacity). 
@@ -201,22 +202,23 @@ Plot absorbance against cell concentration to obtain a calibration curve.
 
 
 
-**3.2.5. Reading Processing** (Jingten)
+3.2.5. *Reading Processing* (Jingten)
 
 The absorbance at specific wavelengths associated with cyanobacterial pigments will be processed to estimate cyanobacterial density through an analytical workflow using the calibration curve obtained. First, the raw absorbance data is corrected for background interference by subtracting non-specific signals from blank readings, caused by turbidity or dissolved organic matter from duckweed growth to ensure specific absorbance. The corrected value is applied to the calibration curve obtained using known concentration of cyanobacteria, which defines the mathematical relationship between absorbance and bacteria density through the Beer-Lambert Law. The sensor outputs a real-time estimate of cyanobacterial density, which will be displayed at the side of the tank with an optional alert system when threshold density is exceeded. This enables farmers to monitor cyanobacteria dynamics continuously and intervene before the bacteria contamination affects duckweed health. 
 
 
 **3.3. Removal and Management of Detected Cyanobacteria** (Jingten)
 
-3.3.1. Filter
+3.3.1. *Filter*
 
-**3.3.2. Management of Cyanobacteria**
+3.3.2. *Management of Cyanobacteria*
 
 Current cyanobacteria is managed by 
 
 # 4. Validation of Design (Jingten)
 
-4.1. Cyanobacteria and Duckweed Growth 
+**4.1. Cyanobacteria and Duckweed Growth** 
+
 Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank. 
 Take regular measurements to determine when the cyanobacteria level reaches 1x108 cells/mL, using the cell counting protocol above. 
 
@@ -252,11 +254,11 @@ Additional mitigation method for cyanobacteria in the water tank should also be 
 Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank.
 
 # 5. Project Plan (Jingten)
-5.1. Gantt Chart
+**5.1. Gantt Chart**
 
 The Gantt Chart outlines the timeline for the prototyping and testing phase of the project to be carried out in the next semester over 10 weeks. To optimize for efficiency, the biosensor hardware development is carried out concurrently with biological preparations (sample cultivation). While the testing span throughout the whole chart due to the duckweed tank setup, testing the biosensor hinges on the design and assembly of the biosensor. Therefore, activities with high priority are carried out at the start of the prototyping phase.
 
-**Project Risk Assessment**
+**5.2. Project Risk Assessment**
 
 Several risks have been identified that could impact the timeline of the project:
 | **Risk** | **Consequence** | **Mitigation** |
