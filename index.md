@@ -253,9 +253,19 @@ Using the appropriate environmental conditions and growth medium, allow duckweed
 
 # 5. Project Plan (Jingten)
 5.1. Gantt Chart
+
 The Gantt Chart outlines the timeline for the prototyping and testing phase of the project to be carried out in the next semester over 10 weeks. To optimize for efficiency, the biosensor hardware development is carried out concurrently with biological preparations (sample cultivation). While the testing span throughout the whole chart due to the duckweed tank setup, testing the biosensor hinges on the design and assembly of the biosensor. Therefore, activities with high priority are carried out at the start of the prototyping phase.
 
 **Project Risk Assessment**
+
+Several risks have been identified that could impact the timeline of the project:
+| **Risk** | **Consequence** | **Mitigation** |
+| :---: | :---: | :---: |
+| Contamination in cyanobacteria culture | Unable to create calibration curve | Maintain backup culture past the phase |
+| Duckweed death | Unable to conduct field testing | Maintain backup culture past the phase |
+| Cyanobacteria density not dense enough for sensing | Sensor unable to provide reliable readings for analysis | Centrifuge to concentrate the cyanobacteria culture and more growth medium |
+| Prototype components not delivered in time | Unable to build prototype | Explore alternative local suppliers (even at a higher cost) and push back the testing phase|
+| Components failure/destroyed during assembly | Biosensor unable to function. Getting the components again may lead to delay in timeline | Buy spare supplies and explore alternative materials|
 
 **5.3. Laboratory Use**
 
