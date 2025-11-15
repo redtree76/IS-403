@@ -244,6 +244,8 @@ The filter is divided into two core functions:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To remove cyanobacteria, microscreen filters (10 μm mesh) can be used to trap suspended cyanobacteria cells. These filters are widely adopted in aquaculture and water treatment for their efficiency and scalability, and have been shown to effectively remove majority of the phytoplankton in the water. (Czyżewska & Piontek, 2019)
 In addition to mechanical filtration, flocculants such as chitosan and polyaluminium chloride (PAC) are used to aggregate cyanobacteria into larger masses called flocs that settle or filter more easily. (Noyma et al., 2016) While chitosan is commonly preferred for its plant-safe applications due to low toxicity, it is shown to damage Microcystis aeruginosa through lysing the cells, causing the cyanotoxins to be released into the water. (Serrà et al., 2021) With this in mind, the chemical coagulation of cyanobacteria through flocculants will be completed in a separate tank to prevent the direct contact between the duckweed and toxins, and the potential uptake of the toxins by duckweed plant.
 
+![Figure J](filter.png)
+
 3.3.2. *Management of Cyanobacteria*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After cell removal, dissolved toxins may remain in the water. Given the high cyanobacteria growth rate, it is highly likely the water is rich in essential nutrients for plant growth such as nitrogen and phosphorus, it should not be simply discarded to fully utilize the nutrients and prevent fertilizer runoff that causes downstream eutrophication. We aim to remove the cyanotoxins present in the water following the removal of cyanobacteria cells, and reuse the water in the main duckweed tank. 
