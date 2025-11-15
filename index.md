@@ -165,6 +165,7 @@ Separated External Battery
 |  **Total Score** | 11 | 14 | 15 | 16 |
 
 
+
 ![Figure E](sensor.png)
 
 ![Figure H](submerged_line.png)
@@ -176,16 +177,14 @@ Separated External Battery
 ![Figure I](separated_external.png)
 
 
+3.1.3. *Points of Consideration* (Jingten) 
 
-
-3.1.3. *Points of Consideration* (Isaac) 
-
-![Figure K](cyano_pipe.png)
+![Figure K](cyano_pipe.png) (Isaac)
 
 1. Location of the sensor (depth)
 2. Numbers of sampling sites
 
-	As the sensor plays the pivotal role to trigger any actions, it is important that the value detected is representative of the whole duckweed tank. While most cyanobacteria bloom occurs on the surface, cyanobacteria are not limited to the epilimnion layer of the water body. (Erratt et al., 2022)  Toxin-producing cyanobacteria could be present throughout the water column, and the density at which they occur could vary. (de Boutray et al., 2011) Therefore we have to consider whether to homogenize the water right before sampling for a generalized sample, or to further consider the location in which the sensor is placed and the number of sampling sites that would produce a reliable, unbiased value. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As the sensor plays the pivotal role to trigger any actions, it is important that the value detected is representative of the whole duckweed tank. While most cyanobacteria bloom occurs on the surface, cyanobacteria are not limited to the epilimnion layer of the water body. (Erratt et al., 2022)  Toxin-producing cyanobacteria could be present throughout the water column, and the density at which they occur could vary. (de Boutray et al., 2011) Therefore we have to consider whether to homogenize the water right before sampling for a generalized sample, or to further consider the location in which the sensor is placed and the number of sampling sites that would produce a reliable, unbiased value. 
 
 
 <br> **3.2. Calibration Curve Relating Absorbance and Concentration of Cyanobacteria** (Shannen) 
@@ -209,10 +208,9 @@ Separated External Battery
 3. Load 6 µL of solution into the sample injection point on the hemacytometer (Figure 1).
 4. Place the counting chamber on the stage of the microscope and focus on the cells.
 5. Count the cells in the squares labelled A to E (Figure 1).
-6. Calculate cell concentration using:cell concentration (cells/mL) = total cells counted volume of the compartments counted dilution factor volume counted=number of squares volume of each square
+6. Calculate cell concentration using:
 
 ![Figure L](3.2_cell_count.png)
-
 7. Keep remaining suspension as stock solution for calibration curve dilutions. 
 
 3.2.3. *Absorbance Measurements*
@@ -231,10 +229,9 @@ Separated External Battery
 3. Mix 2 mL of the resultant diluted cell suspension with 2 mL of deionised water in another tube (1:4).
 4. Repeat the process until you have produced 10 dilutions. After each dilution, mix well and use a new pipette tip for the next dilution.
 5. Measure the optical density of the stock and diluted cell suspensions using UV-Vis spectrophotometer.
-6. Calculate absorbance using the Beer-Lambert Law: A=lc where A: absorbance, =: molar absorptivity, l=1 cm: path length of the cuvette and c: cell concentration
+6. Calculate absorbance using the Beer-Lambert Law: A: absorbance, દ: molar absorptivity, l=1 cm: path length of the cuvette and c: cell concentration
 
 ![Figure M](beer.png)
-
 7. Plot absorbance against cell concentration to obtain a calibration curve. 
 
 
@@ -282,14 +279,12 @@ One of the most widely used methods for cyanotoxin removal is activated carbon a
 <br> **4.3. Determination of the Sensor’s Accuracy**
 
 To confirm whether the biosensor accurately tracks cyanobacteria pigment concentrations and population density. 
-1. Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. sensor derived cell concentration=mcell count+b
+1. Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. 
 
 ![Figure N](sensor_cell.png)
-
-2. Calculate the accuracy using percent error=sensor estimate-cell countcell count100%
+2. Calculate the accuracy using 
 
 ![Figure O](percent_error.png)
-
 3. Refine calibration if needed, using regression analysis to improve the mapping between optical signal and actual cell concentrations.
 
 
@@ -299,9 +294,8 @@ Validate that the biosensor can reliably detect concentrations at or below 0.075
 1. Plot sensor readings against the UV spectrometer absorbance values.
 
 ![Figure P](sensor_ab.png)
-
-2. Perform regression analysis to determine correlation and establish a calibration equation.sensor absorbance values=nUV spectrometer absorbance values+c
-3. Calculate the limit of detection (LOD) and limit of quantification (LOQ) using (Tabarin et al., n.d.):LOD=3.3  SD of Blankn and LOQ=10  SD of Blankn
+2. Perform regression analysis to determine correlation and establish a calibration equation.
+3. Calculate the limit of detection (LOD) and limit of quantification (LOQ) using (Tabarin et al., n.d.):
 - SD of Blank is the standard deviation of 5 blank measurements of the growth medium using the sensor. 
 
 ![Figure Q](lod.png)
@@ -324,12 +318,12 @@ Validate that the biosensor can reliably detect concentrations at or below 0.075
 
 Several risks have been identified that could impact the timeline of the project:
 | **Risk** | **Consequence** | **Mitigation** |
-| :---: | :---: | :---: |
+| :---------- | :---------- | :---------- |
 | Contamination in cyanobacteria culture | Unable to create calibration curve | Maintain backup culture past the phase |
 | Duckweed death | Unable to conduct field testing | Maintain backup culture past the phase |
 | Cyanobacteria density not dense enough for sensing | Sensor unable to provide reliable readings for analysis | Centrifuge to concentrate the cyanobacteria culture and more growth medium |
-| Prototype components not delivered in time | Unable to build prototype | Explore alternative local suppliers (even at a higher cost) and push back the testing phase|
-| Components failure/destroyed during assembly | Biosensor unable to function. Getting the components again may lead to delay in timeline | Buy spare supplies and explore alternative materials|
+| Prototype components not delivered in time | Unable to build prototype | Explore alternative local suppliers (even at a higher cost) and push back the testing phase | 
+| Components failure/destroyed during assembly | Biosensor unable to function. Getting the components again may lead to delay in timeline | Buy spare supplies and explore alternative materials |
 
 <br> **5.3. Laboratory Use**
 
@@ -358,11 +352,15 @@ Bhaswant, M., Shanmugam, D. K., Miyazawa, T., Abe, C., & Miyazawa, T. (2023). Mi
 
 Czyżewska, W., & Piontek, M. (2019). The Efficiency of Microstrainers Filtration in the Process of Removing Phytoplankton with Special Consideration of Cyanobacteria. Toxins, 11(5), 285. https://doi.org/10.3390/toxins11050285
 
+de Boutray, M.-L., Vinçon-Leite, B., Dorner, S., & Lemaire, B. (2011, June 6). Water Quality Monitoring and Lake Ecosystem Modelling: an Integrated Approach to Assess Cyanobacterial Blooms. ResearchGate; unknown. https://www.researchgate.net/publication/268177231_Water_Quality_Monitoring_and_Lake_Ecosystem_Modelling_an_Integrated_Approach_to_Assess_Cyanobacterial_Blooms
+
 Delgopiatof, M., Bai, M., Bushey, S., & Syme, V. (2024, June 10). Mechanics and Optics of Cyanobacteria: How to Survive over Billions of Years - Bioengineering Hyperbook. Bioengineering Hyperbook. https://bioengineering.hyperbook.mcgill.ca/mechanics-and-optics-of-cyanobacteria-how-to-survive-over-billions-of-years/
 
 Dorward, A. (2013). Agricultural labour productivity, food prices and sustainable development impacts and indicators. Food Policy, 39, 40–50. https://doi.org/10.1016/j.foodpol.2012.12.003
 
 EDB . (2025). Edb.gov.sg. https://www.edb.gov.sg/en/about-edb/media-releases-publications/dutch-indoor-farming-company-rowy-opens-new-vertical-farm-in-singapore.html
+
+Erratt, K. J., Creed, I. F., Freeman, E. C., Trick, C. G., Westrick, J., Birbeck, J. A., Watson, L. C., & Zastepa, A. (2022). Deep Cyanobacteria Layers: An Overlooked Aspect of Managing Risks of Cyanobacteria. Environmental Science & Technology. https://doi.org/10.1021/acs.est.2c06928
 
 FAO, IFAD, UNICEF, WFP, & WHO. (2025). The State of Food Security and Nutrition in the World 2025. https://doi.org/10.4060/cd6008en
 
@@ -380,7 +378,7 @@ Lim, K. T. (2021, February 10). Singapore: Food Security despite the Odds. Food 
 
 Loh, R. (2024, October 19). With several farms closing or struggling to break even, what is the future for agriculture in Singapore? CNA. https://www.channelnewsasia.com/today/big-read/high-tech-low-returns-farming-4684566
 
-NC State. (2021). Supporting Cyanobacterial Bloom Monitoring with Satellite Imagery | NC State Extension Publications. Content.ces.ncsu.edu. https://content.ces.ncsu.edu/supporting-cyanobacterial-bloom-monitoring-with-satellite-imagery
+NC State. (2021). Supporting Cyanobacterial Bloom Monitoring with Satellite Imagery NC State Extension Publications. Content.ces.ncsu.edu. https://content.ces.ncsu.edu/supporting-cyanobacterial-bloom-monitoring-with-satellite-imagery
 
 Noyma, N. P., de Magalhães, L., Furtado, L. L., Mucci, M., van Oosterhout, F., Huszar, V. L. M., Marinho, M. M., & Lürling, M. (2016). Controlling cyanobacterial blooms through effective flocculation and sedimentation with combined use of flocculants and phosphorus adsorbing natural soil and modified clay. Water Research, 97, 26–38. https://doi.org/10.1016/j.watres.2015.11.057
 
@@ -400,7 +398,7 @@ Saqrane, S., ghazali, I. E., Ouahid, Y., Hassni, M. E., Hadrami, I. E., Bouarab,
 
 Saunders, J., & Smith, T. (2010). Malnutrition: Causes and consequences. Clinical Medicine, 10(6), 624–627. https://doi.org/10.7861/clinmedicine.10-6-624
 
-ScienceDirect. (2016). Duckweed - an overview \| ScienceDirect Topics. Sciencedirect.com. https://www.sciencedirect.com/topics/earth-and-planetary-sciences/duckweed
+ScienceDirect. (2016). Duckweed - an overview ScienceDirect Topics. Sciencedirect.com. https://www.sciencedirect.com/topics/earth-and-planetary-sciences/duckweed
 
 Serrà, A., Philippe, L., & Gómez, E. (2021). Removal of Cyanobacteria and Cyanotoxins in Waters. Toxins, 13(9), 636. https://doi.org/10.3390/toxins13090636
 
@@ -408,7 +406,7 @@ SFA. (2023, December 13). Agriculture Technologies. Default. https://www.sfa.gov
 
 Singapore Green Plan 2030. (2024). Our Targets. Www.greenplan.gov.sg. https://www.greenplan.gov.sg/targets/
 
-Tabarin, A., Celeste M., L., J. Benoit, C., & Blandine, G.-C. (n.d.). Limit of Quantitation - an overview \| ScienceDirect Topics. Www.sciencedirect.com. https://www.sciencedirect.com/topics/nursing-and-health-professions/limit-of-quantitation
+Tabarin, A., Celeste M., L., J. Benoit, C., & Blandine, G.-C. (n.d.). Limit of Quantitation - an overview ScienceDirect Topics. Www.sciencedirect.com. https://www.sciencedirect.com/topics/nursing-and-health-professions/limit-of-quantitation
 
 Tan. (2019). Malnutrition. Healthhub.sg. https://www.healthhub.sg/health-conditions/malnutrition
 
