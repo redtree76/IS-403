@@ -183,16 +183,19 @@ The absorbance at specific wavelengths associated with cyanobacterial pigments w
 Current cyanobacteria is managed by 
 
 # 4. Validation of Design
+
 4.1. Cyanobacteria and Duckweed Growth 
 Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank. 
 Take regular measurements to determine when the cyanobacteria level reaches 1x108 cells/mL, using the cell counting protocol above. 
 
 **4.2. Measurements Using UV Spectrometer and Our Sensor**
+
 Take frequent measurements using the UV spectrometer.
 Record the corresponding sensor reading. 
 Repeat measurements at different locations as cyanobacteria populations can be non-homogeneous.  
 
 **4.3. Determination of the Sensor’s Accuracy**
+
 To confirm whether the biosensor accurately tracks cyanobacteria pigment concentrations and population density. 
 Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. 
 sensor derived cell concentration=mcell count+b
@@ -201,6 +204,7 @@ percent error=sensor estimate-cell countcell count100%
 Refine calibration if needed, using regression analysis to improve the mapping between optical signal and actual cell concentrations.
 
 **4.4. Determination of the Sensor’s Sensitivity**
+
 Validate that the biosensor can reliably detect concentrations at or below 0.075 μg/mL, ensuring it meets the early warning design specification. 
 Plot sensor readings against the UV spectrometer absorbance values. 
 Perform regression analysis to determine correlation and establish a calibration equation. 
@@ -210,6 +214,7 @@ LOD=3.3  SD of Blankn and LOQ=10  SD of Blankn
 SD of Blank is the standard deviation of 5 blank measurements of the growth medium using the sensor. 
 
 **4.5. Impact of Filter on The Duckweed Tank System**
+
 With an undisturbed duckweed tank as control, measure the impact of integrating the filter into the system with varied filter frequency (every 12 hours, 24 hours, 36 hours, 48 hours). As agitated water surface is shown to be a stressor in duckweed growth, it is vital to establish that filtration method to remove cyanobacteria from the tank does not significantly impact the duckweed growth.
 Additional mitigation method for cyanobacteria in the water tank should also be studied for their effects on the duckweed growth, which is quantified by the following criteria: duckweed growth rate (doubling time), dry mass, total mass, and dormant turion formation in duckweed with
 Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank.
@@ -221,38 +226,8 @@ The Gantt Chart outlines the timeline for the prototyping and testing phase of t
 **Project Risk Assessment**
 
 **5.3. Laboratory Use**
+
 All biological work (cyanobacteria cultivation, calibration curve development, duckweed culture) will be conducted in a Biosafety Level 1 (BSL-1) lab with facilities such as spectrophotometers, microscope, and centrifuge. As this serves as the basis for the calibration curve and further testing and validation, culturing duckweed and cyanobacteria will be the first step in the prototyping phase, and for the first four weeks, it will be monitored every two days to ensure healthy growth. 
 Duckweed tanks will also be set up in the field testing phase.
 
 
-
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
-
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
-
-More specifically, the created site:
-
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
-
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
