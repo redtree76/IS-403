@@ -98,9 +98,25 @@ Our target users are small and medium enterprises (SMEs) indoor farms in Singapo
 
 **2.3.2. Technical Considerations**
 
+| |  |
+| :--- | :--- |
+|  **Detection Limits** | The sensor must detect cyanobacteria concentrations low enough to prevent harmful effects on duckweed. Growth and chlorophyll content of duckweed decrease significantly at 0.075 μg/mL =7.5106 cells/mL. (Saqrane et al., 2007) Therefore, the system must trigger alerts at or below this threshold to ensure early intervention.  |
+|  **Ease of Maintenance** | The device should remain functional with minimal servicing effort and without requiring users to handle water or internal components. Maintenance procedures must be simple, safe and infrequent. 
+Accessible components: no need for users to submerge their hands or remove the sensor fully from the system. 
+Long operational lifespan: battery designed to last 3 months without replacement or charging. 
+Regular sampling: assuming cyanobacteria can double every 1.5-2 hours under favourable conditions (Wend et al., 2022), the measurements will be taken at least once every 3 hours to capture exponential growth phases.
+Minimal calibration: system calibration should remain stable over time with clear prompts when checks are needed.   |
+| **Filter Specification** |The filter should effectively separate duckweed from the water to be filtered, and the cyanobacteria should be removed from the filtered water.   |
 
 # 3. Detail Design 
 Our proposed design is made out of three components.
+
+
+|Component | Description |
+| :--- | :--- |
+|  **Sensor** | Measures the absorbance of water in duckweed tanks at 620nm correlated to the phycocyanin pigment in cyanobacteria. |
+|  **Calibration and Processing** | Translates the absorbance readings measured by the sensor into cyanobacteria count.  |
+| **Filter** | Removes the cyanobacteria from the duckweed tank.  |
 
 **3.1 Sensor**
 
@@ -124,6 +140,17 @@ Submerged Long Term (LT) Line Power
 Submerged Battery Inductive
 Separated External Line Power
 Separated External Battery
+
+| | Line Power | Battery |
+| :--- | :--- | --- |
+|  **Submerged Unified** | Submerged Long Term (LT) Line Power | Submerged Battery (inductive) |
+|  **Separated External** | Separated External Line Power | Separated External Battery |
+
+| | Line Power | Battery | | |
+| :--- | :--- | --- |
+|  **Submerged Unified** | Submerged Long Term (LT) Line Power | Submerged Battery (inductive) |
+|  **Separated External** | Separated External Line Power | Separated External Battery |
+
 
 **3.1.3. Points of Consideration**
 
