@@ -77,6 +77,8 @@ While duckweed doubles in biomass within 3 days so it can be harvested a few tim
 
 <br> **1.4. Interaction between Cyanobacteria and Duckweed**
 
+![Figure A](duckweed.png)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cyanobacteria can establish populations in the water during duckweed cultivation. Even at concentrations as low as 0.075µg/mL, cyanobacteria significantly reduce duckweed growth and chlorophyll content. (Saqrane et al., 2007) Duckweed is a free floating plant and cyanobacteria at these concentrations often remain at the water surface alongside the plants. (Delgopiatof et al., 2024) Thus, it is important to maintain low cyanobacteria levels in cultivation systems to optimize duckweed growth and protein yield.
 
 # 2. Design Product
@@ -163,7 +165,21 @@ Separated External Battery
 |  **Total Score** | 11 | 14 | 15 | 16 |
 
 
+
+![Figure E](sensor.png)
+
+![Figure H](submerged_line.png)
+
+![Figure G](submerged_inductive.png)
+
+![Figure F](separated_line_power.png)
+
+![Figure I](separated_external.png)
+
+
 3.1.3. *Points of Consideration* (Jingten) 
+
+![Figure K](cyano_pipe.png) (Isaac)
 
 1. Location of the sensor (depth)
 2. Numbers of sampling sites
@@ -172,6 +188,8 @@ Separated External Battery
 
 
 <br> **3.2. Calibration Curve Relating Absorbance and Concentration of Cyanobacteria** (Shannen) 
+
+![Figure B](calibration_curve.png)
 
 3.2.1. *Cell Culture*
 
@@ -191,6 +209,8 @@ Separated External Battery
 4. Place the counting chamber on the stage of the microscope and focus on the cells.
 5. Count the cells in the squares labelled A to E (Figure 1).
 6. Calculate cell concentration using:
+
+![Figure L](3.2_cell_count.png)
 7. Keep remaining suspension as stock solution for calibration curve dilutions. 
 
 3.2.3. *Absorbance Measurements*
@@ -210,6 +230,8 @@ Separated External Battery
 4. Repeat the process until you have produced 10 dilutions. After each dilution, mix well and use a new pipette tip for the next dilution.
 5. Measure the optical density of the stock and diluted cell suspensions using UV-Vis spectrophotometer.
 6. Calculate absorbance using the Beer-Lambert Law: A: absorbance, દ: molar absorptivity, l=1 cm: path length of the cuvette and c: cell concentration
+
+![Figure M](beer.png)
 7. Plot absorbance against cell concentration to obtain a calibration curve. 
 
 
@@ -229,6 +251,8 @@ The filter is divided into two core functions:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To remove cyanobacteria, microscreen filters (10 μm mesh) can be used to trap suspended cyanobacteria cells. These filters are widely adopted in aquaculture and water treatment for their efficiency and scalability, and have been shown to effectively remove majority of the phytoplankton in the water. (Czyżewska & Piontek, 2019)
 In addition to mechanical filtration, flocculants such as chitosan and polyaluminium chloride (PAC) are used to aggregate cyanobacteria into larger masses called flocs that settle or filter more easily. (Noyma et al., 2016) While chitosan is commonly preferred for its plant-safe applications due to low toxicity, it is shown to damage Microcystis aeruginosa through lysing the cells, causing the cyanotoxins to be released into the water. (Serrà et al., 2021) With this in mind, the chemical coagulation of cyanobacteria through flocculants will be completed in a separate tank to prevent the direct contact between the duckweed and toxins, and the potential uptake of the toxins by duckweed plant.
+
+![Figure J](filter.png)
 
 3.3.2. *Management of Cyanobacteria*
 
@@ -256,7 +280,11 @@ One of the most widely used methods for cyanotoxin removal is activated carbon a
 
 To confirm whether the biosensor accurately tracks cyanobacteria pigment concentrations and population density. 
 1. Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. 
+
+![Figure N](sensor_cell.png)
 2. Calculate the accuracy using 
+
+![Figure O](percent_error.png)
 3. Refine calibration if needed, using regression analysis to improve the mapping between optical signal and actual cell concentrations.
 
 
@@ -264,9 +292,13 @@ To confirm whether the biosensor accurately tracks cyanobacteria pigment concent
 
 Validate that the biosensor can reliably detect concentrations at or below 0.075 μg/mL, ensuring it meets the early warning design specification. 
 1. Plot sensor readings against the UV spectrometer absorbance values.
+
+![Figure P](sensor_ab.png)
 2. Perform regression analysis to determine correlation and establish a calibration equation.
 3. Calculate the limit of detection (LOD) and limit of quantification (LOQ) using (Tabarin et al., n.d.):
 - SD of Blank is the standard deviation of 5 blank measurements of the growth medium using the sensor. 
+
+![Figure Q](lod.png)
 
 <br> **4.5. Impact of Filter on The Duckweed Tank System**
 
@@ -277,6 +309,8 @@ Validate that the biosensor can reliably detect concentrations at or below 0.075
 
 # 5. Project Plan (Jingten)
 **5.1. Gantt Chart**
+
+![Figure C](gantt_chart.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Gantt Chart outlines the timeline for the prototyping and testing phase of the project to be carried out in the next semester over 10 weeks. To optimize for efficiency, the biosensor hardware development is carried out concurrently with biological preparations (sample cultivation). While the testing span throughout the whole chart due to the duckweed tank setup, testing the biosensor hinges on the design and assembly of the biosensor. Therefore, activities with high priority are carried out at the start of the prototyping phase.
 
@@ -398,3 +432,15 @@ Zięć, G., Michalski, O., Konieczna-Molenda, A., Dera, T., Tkaczewska, J., Zię
 
 Ziegler, P., Appenroth, K. J., & Sree, K. S. (2023). Survival Strategies of Duckweeds, the World’s Smallest Angiosperms. Plants, 12(11), 2215. https://doi.org/10.3390/plants12112215
 
+
+# Appendix
+
+Definitions of Key Terms 
+1. Undernourished: The prevalence of undernourishment is defined as the proportion of the population in each country who, on a regular basis, consume food in amounts that are insufficient to provide the energy required for a normal, active and healthy life. (FAO et al., 2025)
+2. Malnutrition: Malnutrition is a serious condition that occurs when a person does not receive the right amount of nutrients. (Tan, 2019) 
+
+**Calculations**
+
+![Figure D](Hemacytometer.png)
+
+![Figure R](hema_eqn.png)
