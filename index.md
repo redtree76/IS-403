@@ -18,6 +18,33 @@ Success in increasing food production has continued in recent years. Globally, [
 **1.1.2. Beyond Food Production: The Other Dimensions of Food Insecurity**
 While the physical food availability is important, it is only one aspect of food insecurity. Economic and physical access to food, food utilisation and stability of these factors are equally [critical<sup>9</sup>](#footnote-9). In the pursuit of productivity and profit, issues such as rising food prices, environmental degradation and social inequalities were often overlooked or even [exacerbated<sup>10</sup>](#footnote-10). More importantly, many people still do not receive adequate nutrition from the food they consume, highlighting that availability alone does not guarantee [food security<sup>11</sup>](#footnote-11).
 
+**1.1.3. Decreasing Nutritional Content in Food Produced**
+A major conundrum of modern food systems is the decline in nutritional quality. The focus on high-yield, fast-growing crop varieties, coupled with the intensive use of chemical fertilisers and pesticides, has gradually reduced the levels of essential vitamins and minerals in staple foods. Research shows that modern crops such as rice, wheat and maize contain lower concentrations of nutrients like iron, zinc and protein compared to traditional varieties.[<sup>12</sup>](#footnote-12) Furthermore, monoculture farming and soil degradation have limited the diversity of nutrients available in our diets.[<sup>13</sup>](#footnote-13)
+
+Simultaneously, global diets have shifted towards highly processed, calorie-dense but nutrient-poor foods.[<sup>14</sup>](#footnote-14) This trend widens dietary inequality as nutritious food becomes more expensive to produce and less accessible.[<sup>15</sup>](#footnote-15) Resultantly, individuals who rely primarily on affordable and convenient unhealthy options are more susceptible to maladies such as weakened immune system and mental health problems due to malnutrition.[<sup>16</sup>](#footnote-16)[<sup>17</sup>](#footnote-17) 
+	
+**1.1.4. The Fourth Agricultural Revolution**
+The Fourth Agricultural Revolution, also known as Agriculture 4.0 and smart farming, represents the next phase in agricultural transformation driven by digitalisation and advanced technologies. It integrates tools such as artificial intelligence (AI), the Internet of Things (IoT), robotics, big data analysis and precision farming systems to enhance productivity while minimising environmental impact. Unlike previous revolutions that prioritised increasing output, Agriculture 4.0 emphasises sustainability and data-driven decision-making.[<sup>18</sup>](#footnote-18) Through real-time monitoring of soil conditions, crop health and resource use, farmers can optimise inputs like water and fertilisers, thereby improving yields without depleting natural resources.[<sup>19</sup>](#footnote-19)
+
+Addressing food insecurity today requires a dual focus: not only increasing food production but also improving the nutritional quality of food and ensuring equitable access to them. Agriculture 4.0 provides an opportunity to achieve this balance by combining innovation with inclusivity. By leveraging technology to make healthy and sustainable food more accessible and affordable, it has the potential to transform global food systems into ones that support both human health and environmental resilience. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
