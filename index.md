@@ -180,6 +180,8 @@ Separated External Battery
 
 3.1.3. *Points of Consideration* (Isaac) 
 
+![Figure K](cyano_pipe.png)
+
 Location of the sensor (depth)
 Numbers of sampling sites
 
