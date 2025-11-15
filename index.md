@@ -165,12 +165,27 @@ Separated External Battery
 |  **Total Score** | 11 | 14 | 15 | 16 |
 
 
+![Figure E](sensor.png)
+
+![Figure H](submerged_line.png)
+
+![Figure G](submerged_inductive.png)
+
+![Figure F](separated_line_power.png)
+
+![Figure I](separated_external.png)
+
+
+
+
 3.1.3. *Points of Consideration* (Isaac) 
 
 Location of the sensor (depth)
 Numbers of sampling sites
 
 <br> **3.2. Calibration Curve Relating Absorbance and Concentration of Cyanobacteria** (Shannen) 
+
+![Figure B](calibration_curve.png)
 
 3.2.1. *Cell Culture*
 
@@ -276,6 +291,8 @@ Validate that the biosensor can reliably detect concentrations at or below 0.075
 
 # 5. Project Plan (Jingten)
 **5.1. Gantt Chart**
+
+![Figure C](gantt_chart.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Gantt Chart outlines the timeline for the prototyping and testing phase of the project to be carried out in the next semester over 10 weeks. To optimize for efficiency, the biosensor hardware development is carried out concurrently with biological preparations (sample cultivation). While the testing span throughout the whole chart due to the duckweed tank setup, testing the biosensor hinges on the design and assembly of the biosensor. Therefore, activities with high priority are carried out at the start of the prototyping phase.
 
@@ -393,3 +410,6 @@ Zięć, G., Michalski, O., Konieczna-Molenda, A., Dera, T., Tkaczewska, J., Zię
 
 Ziegler, P., Appenroth, K. J., & Sree, K. S. (2023). Survival Strategies of Duckweeds, the World’s Smallest Angiosperms. Plants, 12(11), 2215. https://doi.org/10.3390/plants12112215
 
+
+# Appendix
+![Figure D](Hemacytometer.png)
