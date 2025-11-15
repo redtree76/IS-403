@@ -318,11 +318,15 @@ Bhaswant, M., Shanmugam, D. K., Miyazawa, T., Abe, C., & Miyazawa, T. (2023). Mi
 
 Czyżewska, W., & Piontek, M. (2019). The Efficiency of Microstrainers Filtration in the Process of Removing Phytoplankton with Special Consideration of Cyanobacteria. Toxins, 11(5), 285. https://doi.org/10.3390/toxins11050285
 
+de Boutray, M.-L., Vinçon-Leite, B., Dorner, S., & Lemaire, B. (2011, June 6). Water Quality Monitoring and Lake Ecosystem Modelling: an Integrated Approach to Assess Cyanobacterial Blooms. ResearchGate; unknown. https://www.researchgate.net/publication/268177231_Water_Quality_Monitoring_and_Lake_Ecosystem_Modelling_an_Integrated_Approach_to_Assess_Cyanobacterial_Blooms
+
 Delgopiatof, M., Bai, M., Bushey, S., & Syme, V. (2024, June 10). Mechanics and Optics of Cyanobacteria: How to Survive over Billions of Years - Bioengineering Hyperbook. Bioengineering Hyperbook. https://bioengineering.hyperbook.mcgill.ca/mechanics-and-optics-of-cyanobacteria-how-to-survive-over-billions-of-years/
 
 Dorward, A. (2013). Agricultural labour productivity, food prices and sustainable development impacts and indicators. Food Policy, 39, 40–50. https://doi.org/10.1016/j.foodpol.2012.12.003
 
 EDB . (2025). Edb.gov.sg. https://www.edb.gov.sg/en/about-edb/media-releases-publications/dutch-indoor-farming-company-rowy-opens-new-vertical-farm-in-singapore.html
+
+Erratt, K. J., Creed, I. F., Freeman, E. C., Trick, C. G., Westrick, J., Birbeck, J. A., Watson, L. C., & Zastepa, A. (2022). Deep Cyanobacteria Layers: An Overlooked Aspect of Managing Risks of Cyanobacteria. Environmental Science & Technology. https://doi.org/10.1021/acs.est.2c06928
 
 FAO, IFAD, UNICEF, WFP, & WHO. (2025). The State of Food Security and Nutrition in the World 2025. https://doi.org/10.4060/cd6008en
 
