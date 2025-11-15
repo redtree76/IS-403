@@ -85,8 +85,9 @@ Our goal of the project and value proposition is: to develop a low-cost real-tim
 **2.2. Stakeholder Analysis** (Jingten)
 
 As indoor farms struggle to remain viable due to the high cost of set up and extensive energy demand, we aim to create a low cost sensor for SME indoor farms that allows them to integrate smart agriculture to increase yield and reduce loss. 
-
+	
 We were inspired by Dr. Yuchen Long’s research on duckweed, and through the conversation we learnt the negative impact of phytoplankton contamination in duckweed tanks may take over the space and greatly compete with duckweed for available nutrients and space. However, as both duckweed and cyanobacteria use the same nutrients for growth, without the use of algaecide, it is difficult to eliminate cyanobacteria. He mentioned that it is crucial to promote duckweed growth at an early stage as it could suppress cyanobacteria proliferation by taking up the nutrient and light required for photosynthesis and cyanobacteria. This could be applied in indoor duckweed farms, as cyanobacteria growth is commonly found in hydroponics systems.
+
 
 **2.3. Design Requirements** (Shannen) 
 
@@ -127,11 +128,12 @@ Monitoring cyanobacteria is critical in water quality management and agriculture
 	
 Methods such as ELISA kits (immunoassay-based) and Liquid Chromatography-Mass Spectrometry (LC-MS, chemical quantification of cyanotoxin) detect cyanotoxins with high specificity, but it requires lab processing, trained personnel, expensive and non-portable, thus not suitable for real-time or in-situ monitoring.
 
-To provide timely alert of cyanobacteria growth for indoor duckweed farms, real-time sensing is vital. The current available technology could be summarized as satellite imaging, imaging with machine learning, and optical sensors. Satellite imaging that tracks surface-level bloom is commonly used for large water bodies, which lacks resolution for small-scale indoor systems. Alternatively, machine learning may be applied along with imaging. While it is promising, they often depend on large datasets and computational resources, making it costly and highly dependent on the available data for training. Therefore in our project, we choose to focus on optical sensors, which are the most common form of sensor available on the market that provides real-time sensing. 
+To provide timely alert of cyanobacteria growth for indoor duckweed farms, real-time sensing is vital. The current available technology could be summarized as satellite imaging, imaging with machine learning, and optical sensors. Satellite imaging that tracks surface-level bloom is commonly used for large water bodies, which lacks resolution for small-scale indoor systems. (NC State, 2021) Alternatively, machine learning may be applied along with imaging. While it is promising, they often depend on large datasets and computational resources, making it costly and highly dependent on the available data for training. Therefore in our project, we choose to focus on optical sensors, which are the most common form of sensor available on the market that provides real-time sensing. 
 	
 Currently most optical sensors used for field research are fluorescence-based. While it is a promising solution for in-situ monitoring, its accuracy and reading is highly affected by environmental factors such as turbidity, temperature, or pH, which leads to unreliable estimation of biomass. Additionally, the complex calibration process also acts as a barrier to easy adoption by users to whom cyanobacteria monitoring may be a component to a complex system like duckweed farm.
 	
 To simplify the complex system and lower the cost of production, our project focuses on absorbance-based sensors. While it has lower accuracy compared to the fluorescence-based sensor, it is a necessary trade-off for it to address the limitation of cost and complexity in existing sensor systems.
+
 
 3.1.2. *Development of the Optical Sensor* (Isaac)
 
@@ -162,43 +164,42 @@ Numbers of sampling sites
 
 3.2.1. *Cell Culture*
 
-Prepare 50 mL of growth medium in a flask using the same nutrient composition for duckweed growth. 
-Use a portion of the duckweed culture solution as the inoculum to initiate the cyanobacteria culture. 
-Cover the culture using parafilm to prevent contamination. 
-Allow the culture to grow in the same temperature and light conditions used for duckweed.
-Take regular measurements to determine when the culture concentration reaches 1x108 cells/mL, using the cell counting protocol below. 
-Repeat steps 1-5 to prepare additional cyanobacteria cultures and grow for the determined incubation periods. 
+1. Prepare 50 mL of growth medium in a flask using the same nutrient composition for duckweed growth.
+2. Use a portion of the duckweed culture solution as the inoculum to initiate the cyanobacteria culture.
+3. Cover the culture using parafilm to prevent contamination.
+4. Allow the culture to grow in the same temperature and light conditions used for duckweed.
+5. Take regular measurements to determine when the culture concentration reaches 1x10<sup>8</sup> cells/mL, using the cell counting protocol below.
+6. Repeat steps 1-5 to prepare additional cyanobacteria cultures and grow for the determined incubation periods. 
+
 
 3.2.2. *Cell Count*
 
-Centrifuge 10 mL of cell suspension for 10 mins at 3000 x g. Discard the supernatant. (Rudi et al., 1998)
-Resuspend the pellet in 8 mL of deionised water. 
-Load 6µL of solution into the sample injection point on the hemacytometer (Figure 1).
-Place the counting chamber on the stage of the microscope and focus on the cells. 
-Count the cells in the squares labelled A to E (Figure 1). 
-Calculate cell concentration using:cell concentration (cells/mL) = total cells counted volume of the compartments counted dilution factor 
-volume counted=number of squaresvolume of each square
-Keep remaining suspension as stock solution for calibration curve dilutions. 
+1. Centrifuge 10 mL of cell suspension for 10 mins at 3000 x g. Discard the supernatant. (Rudi et al., 1998)
+2. Resuspend the pellet in 8 mL of deionised water.
+3. Load 6µL of solution into the sample injection point on the hemacytometer (Figure 1).
+4. Place the counting chamber on the stage of the microscope and focus on the cells.
+5. Count the cells in the squares labelled A to E (Figure 1).
+6. Calculate cell concentration using:cell concentration (cells/mL) = total cells counted volume of the compartments counted dilution factor volume counted=number of squaresvolume of each square
+7. Keep remaining suspension as stock solution for calibration curve dilutions. 
 
 3.2.3. *Absorbance Measurements*
 
-Set the wavelength as 665 nm on the UV-Vis spectrophotometer.
-Pipette 1 mL of deionised water into the reference and sampling cuvette. 
-Wipe the cuvette surface and place the reference and sampling cuvette in the spectrophotometer. 
-Blank the background medium absorbance.
-Pipette 1 mL of cell suspension into the sampling cuvette and measure absorbance. 
+1. Set the wavelength as 665 nm on the UV-Vis spectrophotometer.
+2. Pipette 1 mL of deionised water into the reference and sampling cuvette.
+3. Wipe the cuvette surface and place the reference and sampling cuvette in the spectrophotometer.
+4. Blank the background medium absorbance.
+5. Pipette 1 mL of cell suspension into the sampling cuvette and measure absorbance. 
+
 
 3.2.4. *Standard Calibration Curve*
 
-Mix the cell suspension and prepare dilution series in deionised water.
-Mix 2 mL of the given cell culture with 2 mL of deionised water (1:2) in a centrifuge tube (10 mL capacity). 
-Mix 2 mL of the resultant diluted cell suspension with 2 mL of deionised water in another tube (1:4).
-Repeat the process until you have produced 10 dilutions. After each dilution, mix well and use a new pipette tip for the next dilution. 
-Measure the optical density of the stock and diluted cell suspensions using UV-Vis spectrophotometer. 
-Calculate absorbance using the Beer-Lambert Law: 
-A=lc
-where A: absorbance, =: molar absorptivity, l=1 cm: path length of the cuvette and c: cell concentration
-Plot absorbance against cell concentration to obtain a calibration curve. 
+1. Mix the cell suspension and prepare dilution series in deionised water.
+2. Mix 2 mL of the given cell culture with 2 mL of deionised water (1:2) in a centrifuge tube (10 mL capacity).
+3. Mix 2 mL of the resultant diluted cell suspension with 2 mL of deionised water in another tube (1:4).
+4. Repeat the process until you have produced 10 dilutions. After each dilution, mix well and use a new pipette tip for the next dilution.
+5. Measure the optical density of the stock and diluted cell suspensions using UV-Vis spectrophotometer.
+6. Calculate absorbance using the Beer-Lambert Law: A=lc where A: absorbance, =: molar absorptivity, l=1 cm: path length of the cuvette and c: cell concentration
+7. Plot absorbance against cell concentration to obtain a calibration curve. 
 
 
 
@@ -209,49 +210,59 @@ The absorbance at specific wavelengths associated with cyanobacterial pigments w
 
 **3.3. Removal and Management of Detected Cyanobacteria** (Jingten)
 
+The filter is divided into two core functions:
+- Cyanobacteria cell removal: physically separates cyanobacteria from the main duckweed tank 
+- Cyanotoxin neutralization: neutralizes dissolved cyanotoxins released by cyanobacteria in the water
+
 3.3.1. *Filter*
+
+To remove cyanobacteria, microscreen filters (10 μm mesh) can be used to trap suspended cyanobacteria cells. These filters are widely adopted in aquaculture and water treatment for their efficiency and scalability, and have been shown to effectively remove majority of the phytoplankton in the water. (Czyżewska & Piontek, 2019)
+In addition to mechanical filtration, flocculants such as chitosan and polyaluminium chloride (PAC) are used to aggregate cyanobacteria into larger masses called flocs that settle or filter more easily. (Noyma et al., 2016) While chitosan is commonly preferred for its plant-safe applications due to low toxicity, it is shown to damage Microcystis aeruginosa through lysing the cells, causing the cyanotoxins to be released into the water. (Serrà et al., 2021) With this in mind, the chemical coagulation of cyanobacteria through flocculants will be completed in a separate tank to prevent the direct contact between the duckweed and toxins, and the potential uptake of the toxins by duckweed plant.
 
 3.3.2. *Management of Cyanobacteria*
 
-Current cyanobacteria is managed by 
+After cell removal, dissolved toxins may remain in the water. Given the high cyanobacteria growth rate, it is highly likely the water is rich in essential nutrients for plant growth such as nitrogen and phosphorus, it should not be simply discarded to fully utilize the nutrients and prevent fertilizer runoff that causes downstream eutrophication. We aim to remove the cyanotoxins present in the water following the removal of cyanobacteria cells, and reuse the water in the main duckweed tank. 
+One of the most widely used methods for cyanotoxin removal is activated carbon adsorption. This relies on the porous structure of activated carbon to physically adsorb dissolved cyanotoxins from the water. However, its performance could be hindered by factors such as contact ime, carbon type, water quality, and the process can be costly due to the need for regeneration and reactivation of the carbon. (Abbas et al., 2020)
+
+Another novel alternative to degrade cyanobacteria is potassium permanganate, which is a strong oxidizing agent that has been shown to effectively oxidize cyanotoxins such as microcystins and anatoxins into non-toxic form by alternating the molecular structure. (Li et al., 2021) Cyanotoxins is shown to be effectively neutralized by adding the optimal dosage of the potassium permanganate, and it is shown to cause less damage to the cellular membrane of cyanobacteria, leading to lower extracellular cyanotoxin levels. Considering the simplicity and cost of the method, we intend to explore the integration of potassium permanganate dosing in the system.
+
 
 # 4. Validation of Design (Jingten)
 
 **4.1. Cyanobacteria and Duckweed Growth** 
 
-Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank. 
-Take regular measurements to determine when the cyanobacteria level reaches 1x108 cells/mL, using the cell counting protocol above. 
+1. Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank.
+2. Take regular measurements to determine when the cyanobacteria level reaches 1x10<sup>8</sup> cells/mL, using the cell counting protocol above. 
 
 **4.2. Measurements Using UV Spectrometer and Our Sensor**
 
-Take frequent measurements using the UV spectrometer.
-Record the corresponding sensor reading. 
-Repeat measurements at different locations as cyanobacteria populations can be non-homogeneous.  
+1. Take frequent measurements using the UV spectrometer.
+2. Record the corresponding sensor reading.
+3. Repeat measurements at different locations as cyanobacteria populations can be non-homogeneous.  
+
 
 **4.3. Determination of the Sensor’s Accuracy**
 
 To confirm whether the biosensor accurately tracks cyanobacteria pigment concentrations and population density. 
-Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. 
-sensor derived cell concentration=mcell count+b
-Calculate the accuracy using 
-percent error=sensor estimate-cell countcell count100%
-Refine calibration if needed, using regression analysis to improve the mapping between optical signal and actual cell concentrations.
+1. Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. sensor derived cell concentration=mcell count+b
+2. Calculate the accuracy using percent error=sensor estimate-cell countcell count100%
+3. Refine calibration if needed, using regression analysis to improve the mapping between optical signal and actual cell concentrations.
+
 
 **4.4. Determination of the Sensor’s Sensitivity**
 
 Validate that the biosensor can reliably detect concentrations at or below 0.075 μg/mL, ensuring it meets the early warning design specification. 
-Plot sensor readings against the UV spectrometer absorbance values. 
-Perform regression analysis to determine correlation and establish a calibration equation. 
-sensor absorbance values=nUV spectrometer absorbance values+c
-Calculate the limit of detection (LOD) and limit of quantification (LOQ) using (Tabarin et al., n.d.):
-LOD=3.3  SD of Blankn and LOQ=10  SD of Blankn 
-SD of Blank is the standard deviation of 5 blank measurements of the growth medium using the sensor. 
+1. Plot sensor readings against the UV spectrometer absorbance values.
+2. Perform regression analysis to determine correlation and establish a calibration equation.sensor absorbance values=nUV spectrometer absorbance values+c
+3. Calculate the limit of detection (LOD) and limit of quantification (LOQ) using (Tabarin et al., n.d.):LOD=3.3  SD of Blankn and LOQ=10  SD of Blankn
+- SD of Blank is the standard deviation of 5 blank measurements of the growth medium using the sensor. 
 
 **4.5. Impact of Filter on The Duckweed Tank System**
 
-With an undisturbed duckweed tank as control, measure the impact of integrating the filter into the system with varied filter frequency (every 12 hours, 24 hours, 36 hours, 48 hours). As agitated water surface is shown to be a stressor in duckweed growth, it is vital to establish that filtration method to remove cyanobacteria from the tank does not significantly impact the duckweed growth.
-Additional mitigation method for cyanobacteria in the water tank should also be studied for their effects on the duckweed growth, which is quantified by the following criteria: duckweed growth rate (doubling time), dry mass, total mass, and dormant turion formation in duckweed with
-Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank.
+1. With an undisturbed duckweed tank as control, measure the impact of integrating the filter into the system with varied filter frequency (every 12 hours, 24 hours, 36 hours, 48 hours). As agitated water surface is shown to be a stressor in duckweed growth (Ziegler et al., 2023), it is vital to establish that the filtration method to remove cyanobacteria from the tank does not significantly impact the duckweed growth.
+2. Additional mitigation methods for cyanobacteria in the water tank should also be studied for their effects on the duckweed growth, which is quantified by the following criteria: duckweed growth rate (doubling time), dry mass, total mass, and dormant turion formation in duckweed tank.
+3. Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank.
+
 
 # 5. Project Plan (Jingten)
 **5.1. Gantt Chart**
