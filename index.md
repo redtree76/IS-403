@@ -56,7 +56,7 @@ To mitigate this problem, we aim to support indoor farms in enhancing nutritiona
 
 **1.3.1. Cyanobacteria Growth**
 
-While indoor farms have reduced many potential contaminants, cyanobacteria continue to pose a significant challenge as they compete with plants for essential nutrients, reducing plant growth and consequently, the nutritional content of it. Additionally, cyanobacteria can form biofilms that harbour pathogens and produce toxins, posing further risks. They are pervasive, growing rapidly in many areas, from pipes to irrigation lines. Regular maintenance is therefore essential, including weekly inspections, mechanical cleaning and chlorine-based disinfection. (An et al., 2024)
+While indoor farms have reduced many potential contaminants, cyanobacteria continue to pose a significant challenge as they compete with plants for essential nutrients, reducing plant growth and consequently, the nutritional content of it. (Wang et al., 2021) Additionally, cyanobacteria can form biofilms that harbour pathogens and produce toxins, posing further risks. They are pervasive, growing rapidly in many areas, from pipes to irrigation lines. Regular maintenance is therefore essential, including weekly inspections, mechanical cleaning and chlorine-based disinfection. (An et al., 2024)
 
 **1.3.2. Shifting Focus: Microgreens Over Regular Greens**
 
