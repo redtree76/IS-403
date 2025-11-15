@@ -190,7 +190,7 @@ Separated External Battery
 3. Load 6 µL of solution into the sample injection point on the hemacytometer (Figure 1).
 4. Place the counting chamber on the stage of the microscope and focus on the cells.
 5. Count the cells in the squares labelled A to E (Figure 1).
-6. Calculate cell concentration using:cell concentration (cells/mL) = total cells counted volume of the compartments counted dilution factor volume counted=number of squaresvolume of each square
+6. Calculate cell concentration using:
 7. Keep remaining suspension as stock solution for calibration curve dilutions. 
 
 3.2.3. *Absorbance Measurements*
@@ -209,7 +209,7 @@ Separated External Battery
 3. Mix 2 mL of the resultant diluted cell suspension with 2 mL of deionised water in another tube (1:4).
 4. Repeat the process until you have produced 10 dilutions. After each dilution, mix well and use a new pipette tip for the next dilution.
 5. Measure the optical density of the stock and diluted cell suspensions using UV-Vis spectrophotometer.
-6. Calculate absorbance using the Beer-Lambert Law: A=lc where A: absorbance, =: molar absorptivity, l=1 cm: path length of the cuvette and c: cell concentration
+6. Calculate absorbance using the Beer-Lambert Law: A: absorbance, દ: molar absorptivity, l=1 cm: path length of the cuvette and c: cell concentration
 7. Plot absorbance against cell concentration to obtain a calibration curve. 
 
 
@@ -255,8 +255,8 @@ One of the most widely used methods for cyanotoxin removal is activated carbon a
 <br> **4.3. Determination of the Sensor’s Accuracy**
 
 To confirm whether the biosensor accurately tracks cyanobacteria pigment concentrations and population density. 
-1. Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. sensor derived cell concentration=mcell count+b
-2. Calculate the accuracy using percent error=sensor estimate-cell countcell count100%
+1. Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. 
+2. Calculate the accuracy using 
 3. Refine calibration if needed, using regression analysis to improve the mapping between optical signal and actual cell concentrations.
 
 
@@ -264,8 +264,8 @@ To confirm whether the biosensor accurately tracks cyanobacteria pigment concent
 
 Validate that the biosensor can reliably detect concentrations at or below 0.075 μg/mL, ensuring it meets the early warning design specification. 
 1. Plot sensor readings against the UV spectrometer absorbance values.
-2. Perform regression analysis to determine correlation and establish a calibration equation.sensor absorbance values=nUV spectrometer absorbance values+c
-3. Calculate the limit of detection (LOD) and limit of quantification (LOQ) using (Tabarin et al., n.d.):LOD=3.3  SD of Blankn and LOQ=10  SD of Blankn
+2. Perform regression analysis to determine correlation and establish a calibration equation.
+3. Calculate the limit of detection (LOD) and limit of quantification (LOQ) using (Tabarin et al., n.d.):
 - SD of Blank is the standard deviation of 5 blank measurements of the growth medium using the sensor. 
 
 <br> **4.5. Impact of Filter on The Duckweed Tank System**
