@@ -78,6 +78,7 @@ While duckweed doubles in biomass within 3 days so it can be harvested a few tim
 <br> **1.4. Interaction between Cyanobacteria and Duckweed**
 
 ![Figure A](duckweed.png)
+<div style="text-align: center;"> Figure A: Duckweed Cultivation with Cyanobacteria and Algae </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cyanobacteria can establish populations in the water during duckweed cultivation. Even at concentrations as low as 0.075µg/mL, cyanobacteria significantly reduce duckweed growth and chlorophyll content. (Saqrane et al., 2007) Duckweed is a free floating plant and cyanobacteria at these concentrations often remain at the water surface alongside the plants. (Delgopiatof et al., 2024) Thus, it is important to maintain low cyanobacteria levels in cultivation systems to optimize duckweed growth and protein yield.
 
@@ -102,7 +103,7 @@ While duckweed doubles in biomass within 3 days so it can be harvested a few tim
 
 | |  |
 | :--- | :--- |
-|  **Affordability** | The unit price should remain below SGD $1,000 to ensure accessibility for SMEs to encourage adoption. The lowest price on the market is USD 1,995. |
+|  **Affordability** | The unit price should remain below SGD $1,000 to ensure accessibility for SMEs to encourage adoption. The lowest price on the market is USD [1,995<sup>1</sup>](#footnote-1). |
 |  **Portability** | The sensor must be compact and lightweight to support relocation within multi-tank facilities. Transfers should be quick and non-disruptive to farming operations.  |
 | **Ease of use** | The sensor should be simple to operate for users with minimal technical training. Sensor readings and real-time cyanobacteria concentrations must be easily accessible and clearly interpreted. This includes an intuitive user interface, clear display of results and guided workflow. Furthermore, users can collect readings without disturbing the duckweed or water system.  |
 
@@ -144,8 +145,11 @@ Our proposed design is made out of three components.
 We have developed 4 concepts and will assess which concept best addresses the design requirements.
 
 Submerged Long Term (LT) Line Power
+
 Submerged Battery Inductive
+
 Separated External Line Power
+
 Separated External Battery
 
 | | Line Power | Battery |
@@ -153,7 +157,7 @@ Separated External Battery
 |  **Submerged Unified** | Submerged Long Term (LT) Line Power | Submerged Battery (inductive) |
 |  **Separated External** | Separated External Line Power | Separated External Battery |
 
-| | Line Power | Battery | | |
+| | Submerged Long Term [LP<sup>2</sup>](#footnote-2) | Submerged Battery Inductive | Separated External LP | Separated External Battery |
 | :--- | :--- | --- | --- | --- |
 |  **Affordability** | ++ | + | ++ | ++ |
 |  **Ease of Set Up** | + | +++ | ++ | ++ |
@@ -165,21 +169,67 @@ Separated External Battery
 |  **Total Score** | 11 | 14 | 15 | 16 |
 
 
-
-![Figure E](sensor.png)
+**Analysis of Concept Variations (Isaac)**
 
 ![Figure H](submerged_line.png)
+<div style="text-align: center;"> Figure B: Submerged Unified Long Term (LT) Line Power </div>
+
+This design is simple and straightforward with direct line power to a submerged sensor. It has operational endurance as it is place-and-forget. However, it is not portable and cannot be moved from tank to tank easily to take different measurements. 
 
 ![Figure G](submerged_inductive.png)
+<div style="text-align: center;"> Figure C: Submerged Unified Battery Inductive design </div>
+
+A variation of the first design is a submerged sensor that is inductively powered. This has good operational endurance as the sensor can be inductively powered and is less logistically complex, without power supply entering the water from the mains. However, it will be less affordable due to the inductive charger and better waterproofing is required as it is submerged.  
 
 ![Figure F](separated_line_power.png)
+<div style="text-align: center;"> Figure D: Separated external line power </div>
+
+To improve on this design, the sensor can be mounted on the side of the tank and the sampling mechanism is a tube that is suspended in the water. This requires less waterproofing for the sensor, however, it is externally powered. It will be affordable. 
 
 ![Figure I](separated_external.png)
+<div style="text-align: center;"> Figure E: Separated External battery </div>
 
+The last and final design we decided on is the separated external sensor with a inbuilt battery. This gives the best balance of portability (ease of transferring the sensor to another tank), and ease of maintenance as the battery removal is convenient on the outside of the tank. 
+
+**Detailed Design of Sensor Module**
+
+![Figure E](sensor.png)
+<div style="text-align: center;"> Figure F: Integrated cyanobacteria spectral sensor with display and sampling mechanism </div>
+
+The sensor comprises of 9 key components, divided into 4 systems. Sampling, Measurement and Computation, Power Management and Display.
+
+**Sampling System**
+
+Cuvette
+Small peristaltic fluidic pump
+Full Spectrum LED
+620 nm Filter
+Full Spectrum CMOS sensor
+
+**Measurement and Computation**
+
+Raspberry Pi Zero 2 W
+
+**Power Management**
+
+LiPo Battery 8000mAh
+ESP 32 Microcontroller
+
+**Display**
+
+7 Segment LED Screen
+
+**Operational Cycle**
+1. Water is deposited using the small fluidic pump from the tank into the cuvette
+2. Full Spectrum LED iluminates sample, light passes through cuvette and 620nm bandpass filter to CMOS sensor
+3. Intensity of light is logged
+4. Raspberry pi Zero 2 W calculates and outputs the cyanobacteria concentration.
+5. Readings are displayed on 7 segment LED screen.
 
 3.1.3. *Points of Consideration* (Jingten) 
 
-![Figure K](cyano_pipe.png) (Isaac)
+![Figure K](cyano_pipe.png) 
+<div style="text-align: center;"> Figure G: Cyanobacteria in Water Column Layers (Erratt et al., 2022) </div>
 
 1. Location of the sensor (depth)
 2. Numbers of sampling sites
@@ -190,6 +240,8 @@ Separated External Battery
 <br> **3.2. Calibration Curve Relating Absorbance and Concentration of Cyanobacteria** (Shannen) 
 
 ![Figure B](calibration_curve.png)
+<div style="text-align: center;"> Figure H: Flowchart of Calibration Curve Creation </div>
+
 
 3.2.1. *Cell Culture*
 
@@ -210,7 +262,10 @@ Separated External Battery
 5. Count the cells in the squares labelled A to E (Figure 1).
 6. Calculate cell concentration using:
 
-![Figure L](3.2_cell_count.png)
+
+	![Figure L](3.2_cell_count.png)
+
+
 7. Keep remaining suspension as stock solution for calibration curve dilutions. 
 
 3.2.3. *Absorbance Measurements*
@@ -231,7 +286,8 @@ Separated External Battery
 5. Measure the optical density of the stock and diluted cell suspensions using UV-Vis spectrophotometer.
 6. Calculate absorbance using the Beer-Lambert Law: A: absorbance, દ: molar absorptivity, l=1 cm: path length of the cuvette and c: cell concentration
 
-![Figure M](beer.png)
+	![Figure M](beer.png)
+
 7. Plot absorbance against cell concentration to obtain a calibration curve. 
 
 
@@ -249,10 +305,14 @@ The filter is divided into two core functions:
 
 3.3.1. *Filter*
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To separate cyanobacteria from the main duckweed tank, a 74 μm pore size mesh is used to prevent duckweed from leaving the tank, whilst allowing the cyanobacteria and suspension to be transferred into the 2nd tank. The pore size is smaller than the smallest duckweed species, Wolffia, at 0.1mm or 100 μm, which makes it ideal for separating the cyanobacteria from duckweed. (Acosta et al., 2021)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To remove cyanobacteria, microscreen filters (10 μm mesh) can be used to trap suspended cyanobacteria cells. These filters are widely adopted in aquaculture and water treatment for their efficiency and scalability, and have been shown to effectively remove majority of the phytoplankton in the water. (Czyżewska & Piontek, 2019)
+
 In addition to mechanical filtration, flocculants such as chitosan and polyaluminium chloride (PAC) are used to aggregate cyanobacteria into larger masses called flocs that settle or filter more easily. (Noyma et al., 2016) While chitosan is commonly preferred for its plant-safe applications due to low toxicity, it is shown to damage Microcystis aeruginosa through lysing the cells, causing the cyanotoxins to be released into the water. (Serrà et al., 2021) With this in mind, the chemical coagulation of cyanobacteria through flocculants will be completed in a separate tank to prevent the direct contact between the duckweed and toxins, and the potential uptake of the toxins by duckweed plant.
 
 ![Figure J](filter.png)
+<div style="text-align: center;"> Figure I: 2 tank filter mechanism to remove cyanotoxins and recover nutrients (nitrogen and phosphorous) (Isaac) </div>
 
 3.3.2. *Management of Cyanobacteria*
 
@@ -269,6 +329,7 @@ One of the most widely used methods for cyanotoxin removal is activated carbon a
 1. Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank.
 2. Take regular measurements to determine when the cyanobacteria level reaches 1x10<sup>8</sup> cells/mL, using the cell counting protocol above. 
 
+
 <br> **4.2. Measurements Using UV Spectrometer and Our Sensor**
 
 1. Take frequent measurements using the UV spectrometer.
@@ -279,12 +340,14 @@ One of the most widely used methods for cyanotoxin removal is activated carbon a
 <br> **4.3. Determination of the Sensor’s Accuracy**
 
 To confirm whether the biosensor accurately tracks cyanobacteria pigment concentrations and population density. 
-1. Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. 
+1. Plot sensor-derived cell concentrations with hemocytometer counts to validate interpretation of optical signals. /n
 
-![Figure N](sensor_cell.png)
+	![Figure N](sensor_cell.png)
+
 2. Calculate the accuracy using 
 
-![Figure O](percent_error.png)
+	![Figure O](percent_error.png)
+
 3. Refine calibration if needed, using regression analysis to improve the mapping between optical signal and actual cell concentrations.
 
 
@@ -300,6 +363,7 @@ Validate that the biosensor can reliably detect concentrations at or below 0.075
 
 ![Figure Q](lod.png)
 
+
 <br> **4.5. Impact of Filter on The Duckweed Tank System**
 
 1. With an undisturbed duckweed tank as control, measure the impact of integrating the filter into the system with varied filter frequency (every 12 hours, 24 hours, 36 hours, 48 hours). As agitated water surface is shown to be a stressor in duckweed growth (Ziegler et al., 2023), it is vital to establish that the filtration method to remove cyanobacteria from the tank does not significantly impact the duckweed growth.
@@ -311,17 +375,19 @@ Validate that the biosensor can reliably detect concentrations at or below 0.075
 **5.1. Gantt Chart**
 
 ![Figure C](gantt_chart.png)
+<div style="text-align: center;"> Figure J: Gantt Chart of Semester 2 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Gantt Chart outlines the timeline for the prototyping and testing phase of the project to be carried out in the next semester over 10 weeks. To optimize for efficiency, the biosensor hardware development is carried out concurrently with biological preparations (sample cultivation). While the testing span throughout the whole chart due to the duckweed tank setup, testing the biosensor hinges on the design and assembly of the biosensor. Therefore, activities with high priority are carried out at the start of the prototyping phase.
 
 <br> **5.2. Project Risk Assessment**
 
 Several risks have been identified that could impact the timeline of the project:
-| **Risk** | **Consequence** | **Mitigation** |
-| :---------- | :---------- | :---------- |
+
+|Risks | Consequence | Mitigation |
+| :--- | :--- | :---: |
 | Contamination in cyanobacteria culture | Unable to create calibration curve | Maintain backup culture past the phase |
-| Duckweed death | Unable to conduct field testing | Maintain backup culture past the phase |
-| Cyanobacteria density not dense enough for sensing | Sensor unable to provide reliable readings for analysis | Centrifuge to concentrate the cyanobacteria culture and more growth medium |
+|   Duckweed death | Unable to conduct field testing | Maintain backup culture past the phase |
+|Cyanobacteria density not dense enough for sensing | Sensor unable to provide reliable readings for analysis | Centrifuge to concentrate the cyanobacteria culture and more growth medium |
 | Prototype components not delivered in time | Unable to build prototype | Explore alternative local suppliers (even at a higher cost) and push back the testing phase | 
 | Components failure/destroyed during assembly | Biosensor unable to function. Getting the components again may lead to delay in timeline | Buy spare supplies and explore alternative materials |
 
@@ -333,6 +399,8 @@ Duckweed tanks will also be set up in the field testing phase.
 # References
 
 Abbas, T., Kajjumba, G. W., Ejjada, M., Masrura, S. U., Marti, E. J., Khan, E., & Jones-Lepp, T. L. (2020). Recent Advancements in the Removal of Cyanotoxins from Water Using Conventional and Modified Adsorbents—A Contemporary Review. Water, 12(10), 2756. https://doi.org/10.3390/w12102756
+
+Acosta, K., Appenroth, K. J., Borisjuk, L., Edelman, M., Heinig, U., Jansen, M. A. K., Oyama, T., Pasaribu, B., Schubert, I., Sorrels, S., Sree, K. S., Xu, S., Michael, T. P., & Lam, E. (2021). Return of the Lemnaceae: duckweed as a model plant system in the genomics and postgenomics era. The Plant cell, 33(10), 3207–3234. https://doi.org/10.1093/plcell/koab189
 
 An, C., Ye Htut Zwe, Mei, M., Shang, G., Ling, Y., Poh, B. L., Zhou, W., & Li, D. (2024). Sanitization of hydroponic farming facilities in Singapore: what, why, and how. Applied and Environmental Microbiology. https://doi.org/10.1128/aem.00672-24
 
@@ -437,10 +505,36 @@ Ziegler, P., Appenroth, K. J., & Sree, K. S. (2023). Survival Strategies of Duck
 
 Definitions of Key Terms 
 1. Undernourished: The prevalence of undernourishment is defined as the proportion of the population in each country who, on a regular basis, consume food in amounts that are insufficient to provide the energy required for a normal, active and healthy life. (FAO et al., 2025)
-2. Malnutrition: Malnutrition is a serious condition that occurs when a person does not receive the right amount of nutrients. (Tan, 2019) 
+2. Malnutrition: Malnutrition is a serious condition that occurs when a person does not receive the right amount of nutrients. (Tan, 2019)
+
+
+|Product Description | Product Link | Price [(SGD)<sup>3</sup>](#footnote-3) |
+| :--- | :--- | --- |
+|  **Full Spectrum CMOS Sensor (with no bayer filter) OV7251 MIPI Global Shutter CMOS LI-OV7251M-FF-80 Monochrome 640 x 480 MIPI** | https://www.digikey.sg/en/products/detail/leopard-imaging-inc/LI-OV7251M-FF-80/21324197 | 83.59 SGD|
+|  **620 nm narrow bandpass filter (10nm bandwidth)** | https://www.edmundoptics.com.sg/p/everix-ultra-thin-narrow-bandpass-filter-620nm-125mm-dia-10nm-fwhm/52295/  | 104.55 SGD |
+| **Raspberry Pi Zero 2 W** | https://my.cytron.io/p-raspberry-pi-zero-2-w-with-32gb-microsd?src=raspberrypi | 44.25 SGD |
+| **ESP 32 Board** | https://shopee.sg/ESP-32-WIFI-Bluetooth-Development-Board-ESP32-ESP-32S-i.189216177.3653344782 | 5.29 SGD |
+| **LiPo Battery (8000mAh)** | https://www.ebay.com.au/itm/187166362807 | 24.55 SGD |
+| **Microfluidic Pump (4mm diameter)** | https://www.foreshinefluid.com/en-sg/products/0-270ml-min-constant-flow-miniature-peristaltic-dosing-pump-12v-dc-water-pump | 13 SGD |
+| **Full Spectrum LED (10 pcs)** | https://www.digikey.sg/en/products/detail/dialight/5218743F/26266920 | 4.42 SGD |
+| **7 segment LED Screen TM1637 Display Module** | https://shopee.sg/7-Segment-Display-4-Digit-LED-Module-TM1637-i.1418435781.29674184442 | 3.59 SGD |
+| **4.5 ML Disposable Plastic Cuvette (8 pcs)** | https://shopee.sg/4.5ML-Disposable-Plastic-Cuvette-i.361504276.27011199278 | 4.91 SGD |
+| | Total Price | 288.15 SGD |
 
 **Calculations**
 
 ![Figure D](Hemacytometer.png)
 
+<div style="text-align: center;"> Figure 1: Hemacytometer Counting Grid </div>
+
 ![Figure R](hema_eqn.png)
+
+
+
+
+
+<span id="footnote-1"></span>1. <https://sensorpros.com/products/in-situ-aqua-troll-aqua-troll-chlorophyll-a-sensor-0038900?srsltid=AfmBOorIPGMrujqGgASiri6cVbLl3tHx-IxRXKehJ6gCBcPUa5xE43x_&variant=28530561843234>
+
+<span id="footnote-2"></span>2. Long Term Line Power
+
+<span id="footnote-3"></span>3. Conversion Rate based on 28 October 2025, 1 USD = 1.30 SGD, 1 SGD = 3.25 MYR, 1 GBP = 1.73 SGD
