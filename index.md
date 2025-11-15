@@ -105,11 +105,7 @@ Our target users are small and medium enterprises (SMEs) indoor farms in Singapo
 | |  |
 | :--- | :--- |
 |  **Detection Limits** | The sensor must detect cyanobacteria concentrations low enough to prevent harmful effects on duckweed. Growth and chlorophyll content of duckweed decrease significantly at 0.075 μg/mL =7.5106 cells/mL. (Saqrane et al., 2007) Therefore, the system must trigger alerts at or below this threshold to ensure early intervention.  |
-|  **Ease of Maintenance** | The device should remain functional with minimal servicing effort and without requiring users to handle water or internal components. Maintenance procedures must be simple, safe and infrequent. 
-Accessible components: no need for users to submerge their hands or remove the sensor fully from the system. 
-Long operational lifespan: battery designed to last 3 months without replacement or charging. 
-Regular sampling: assuming cyanobacteria can double every 1.5-2 hours under favourable conditions (Wend et al., 2022), the measurements will be taken at least once every 3 hours to capture exponential growth phases.
-Minimal calibration: system calibration should remain stable over time with clear prompts when checks are needed.   |
+|  **Ease of Maintenance** | The device should remain functional with minimal servicing effort and without requiring users to handle water or internal components. Maintenance procedures must be simple, safe and infrequent. <br> &nbsp;- Accessible components: no need for users to submerge their hands or remove the sensor fully from the system.<br> &nbsp;- Long operational lifespan: battery designed to last 3 months without replacement or charging. <br> &nbsp;- Regular sampling: assuming cyanobacteria can double every 1.5-2 hours under favourable conditions (Wend et al., 2022), the measurements will be taken at least once every 3 hours to capture exponential growth phases. <br> &nbsp;- Minimal calibration: system calibration should remain stable over time with clear prompts when checks are needed.   |
 | **Filter Specification** |The filter should effectively separate duckweed from the water to be filtered, and the cyanobacteria should be removed from the filtered water.   |
 
 # 3. Detail Design 
