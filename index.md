@@ -163,7 +163,7 @@ Separated External Battery
 |  **Total Score** | 11 | 14 | 15 | 16 |
 
 
-3.1.3. *Points of Consideration* (Isaac) 
+3.1.3. *Points of Consideration* (Jingten) 
 
 1. Location of the sensor (depth)
 2. Numbers of sampling sites
