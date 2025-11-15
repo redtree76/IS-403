@@ -147,9 +147,15 @@ Separated External Battery
 |  **Separated External** | Separated External Line Power | Separated External Battery |
 
 | | Line Power | Battery | | |
-| :--- | :--- | --- |
-|  **Submerged Unified** | Submerged Long Term (LT) Line Power | Submerged Battery (inductive) |
-|  **Separated External** | Separated External Line Power | Separated External Battery |
+| :--- | :--- | --- | --- | --- |
+|  **Affordability** | ++ | + | ++ | ++ |
+|  **Ease of Set Up** | + | +++ | ++ | ++ |
+|  **Operational Endurance** | +++ | ++ | +++ | ++ |
+|  **Ease of maintenance** | + | ++ | ++ | ++ |
+|  **Accuracy (all with the same internals)** | ++ | ++ | ++ | ++ |
+|  **Ease of measurement and viewing of results** | + (no 7 segment display, direct connection to computer) | + (no 7 segment display, direct connection to computer)| ++ (have 7 segment / LCD display) | ++ (have 7 segment / LCD display) |
+|  **Portability** |+ | +++ | ++ | ++ |
+|  **Total Score** | 11 | 14 | 15 | 16 |
 
 
 **3.1.3. Points of Consideration**
