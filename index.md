@@ -5,7 +5,7 @@ layout: home
 
 **CDE4301 IS-403**
 
-## Introduction
+## 1. Introduction
 **1.1 Food Insecurity**
 
 Food insecurity is the lack of consistent access to enough safe and nutritious food for normal growth and development. (Anthem, 2025) It prevents people from maintaining an active and healthy lifestyle. There are a multitude of factors that plague communities and contribute to food insecurity. Examples include climate change affecting crop yields, poverty limiting people’s ability to afford food, conflicts and wars disrupting food supply chains and poor infrastructure making it harder for food to reach those in need. (World Food Program USA, 2025)
@@ -42,11 +42,11 @@ Due to land scarcity and the lack of natural resources, Singapore imports more t
 
 **1.2.2. Indoor Farming**
 
-Indoor farm refers to the cultivation of crops in a controlled and enclosed environment. (SFA, 2023)  It involves different methods such as vertical farming, hydroponics, aeroponics, and aquaponics. These allow for food to be produced year-round, more sustainably and safely. Locally, the efficient use of limited land and stable supply are crucial. The government has actively funded and supported indoor farms, albeit with limited success, as many continue to struggle due to high costs of operations, stringent regulations and a shortage of highly skilled labour. (Loh, 2024) Thus, the focus has shifted toward funding the adoption of advanced technology including automated farming equipment and infrastructure. (Begum, 2025)
+Indoor farm refers to the cultivation of crops in a controlled and enclosed environment. (SFA, 2023)  It involves different methods such as vertical farming, hydroponics, aeroponics, and aquaponics. These allow for food to be produced year-round, more sustainably and safely. Locally, the efficient use of limited land and stable supply are crucial. The government has actively funded and supported indoor farms, albeit with limited success, as many continue to struggle due to high costs of operations, stringent regulations and a shortage of highly skilled labour. (Loh, 2024) Thus, the focus has shifted toward funding the adoption of advanced technology including automated farming equipment and infrastructure. (Begum, 2025a)
 
 **1.2.3. Why Indoor Farming Remains Essential**
 
-Singaporean consumers often choose locally grown produce for its freshness, safety and lack of pesticides, while those who prefer imported food do so because of lower prices, greater variety and perceived better taste and quality. (Tham, 2024) With the adoption of Agriculture 4.0 technologies, indoor farms have the potential to address these gaps. Precision agriculture can help improve efficiency, optimise resource use and enhance crop quality. (Rathor et al., 2024) Over time, these advancements could reduce production costs and expand the variety of locally grown produce, allowing indoor farms to better meet consumer expectations while maintaining their inherent advantages. Furthermore, the Singapore Green Plan 2030 was recently postponed to 2035, with renewed plans to support indoor farms and revised targets to increase production of both vegetable and protein. While progress is slow, it is premature to abandon efforts to expand indoor farms and investment in these farms cannot be overlooked. 
+Singaporean consumers often choose locally grown produce for its freshness, safety and lack of pesticides, while those who prefer imported food do so because of lower prices, greater variety and perceived better taste and quality. (Tham, 2024) With the adoption of Agriculture 4.0 technologies, indoor farms have the potential to address these gaps. Precision agriculture can help improve efficiency, optimise resource use and enhance crop quality. (Rathor et al., 2024) Over time, these advancements could reduce production costs and expand the variety of locally grown produce, allowing indoor farms to better meet consumer expectations while maintaining their inherent advantages. Furthermore, the Singapore Green Plan 2030 was recently postponed to 2035, with renewed plans to support indoor farms and revised targets to increase production of both vegetable and protein. While progress is slow, it is premature to abandon efforts to expand indoor farms and investment in these farms cannot be overlooked. (Begum, 2025b)
 
 **1.3. Problem Statement**
 
