@@ -6,7 +6,7 @@ layout: home
 **CDE4301 IS-403**
 
 ## Introduction
-## 1.1 Food Insecurity
+**1.1 Food Insecurity**
 
 Food insecurity is the lack of consistent access to enough safe and nutritious food for normal growth and development. (Anthem, 2025) It prevents people from maintaining an active and healthy lifestyle. There are a multitude of factors that plague communities and contribute to food insecurity. Examples include climate change affecting crop yields, poverty limiting people’s ability to afford food, conflicts and wars disrupting food supply chains and poor infrastructure making it harder for food to reach those in need. (World Food Program USA, 2025)
 
