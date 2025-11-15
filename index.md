@@ -439,7 +439,7 @@ Definitions of Key Terms
 1. Undernourished: The prevalence of undernourishment is defined as the proportion of the population in each country who, on a regular basis, consume food in amounts that are insufficient to provide the energy required for a normal, active and healthy life. (FAO et al., 2025)
 2. Malnutrition: Malnutrition is a serious condition that occurs when a person does not receive the right amount of nutrients. (Tan, 2019) 
 
-**Calculations**
+Calculations
 
 ![Figure D](Hemacytometer.png)
 
