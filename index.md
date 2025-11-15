@@ -42,7 +42,7 @@ Due to land scarcity and the lack of natural resources, Singapore imports more t
 
 **1.2.2. Indoor Farming**
 
-Indoor farm refers to the cultivation of crops in a controlled and enclosed environment. (SFA, 2023)  It involves different methods such as vertical farming, hydroponics, aeroponics, and aquaponics. These allow for food to be produced year-round, more sustainably and safely. Locally, the efficient use of limited land and stable supply are crucial. The government has actively funded and supported indoor farms, albeit with limited success, as many continue to struggle due to high costs of operations, stringent regulations and a shortage of highly skilled labour. (Loh, 2024) Thus, the focus has shifted toward funding the adoption of advanced technology including automated farming equipment and infrastructure. (Begum, 2025a)
+Indoor farm refers to the cultivation of crops in a controlled and enclosed environment. (SFA, 2023)  It involves different methods such as vertical farming, hydroponics, aeroponics, and aquaponics. These allow for food to be produced year-round, more sustainably and safely. (Kish, 2024) Locally, the efficient use of limited land and stable supply are crucial. The government has actively funded and supported indoor farms, albeit with limited success, as many continue to struggle due to high costs of operations, stringent regulations and a shortage of highly skilled labour. (Loh, 2024) Thus, the focus has shifted toward funding the adoption of advanced technology including automated farming equipment and infrastructure. (Begum, 2025a)
 
 **1.2.3. Why Indoor Farming Remains Essential**
 
@@ -64,7 +64,7 @@ Shifting indoor farm production towards microgreens instead of traditional leafy
 
 Furthermore, microgreens offer better commercial viability. While indoor farms have traditionally focused on Asian leafy greens to match consumer preferences, these crops are often difficult to cultivate indoors and yield lower profit margins. (Tham, 2024) By incorporating microgreens alongside locally familiar vegetables, indoor farms can improve both the nutritional quality and profitability of their produce, while better meeting consumer expectations for pricing and variety. (EDB, 2025)
 
-Our microgreen of choice is duckweed. Duckweed is a novel food
+Our microgreen of choice is duckweed, a rapidly growing and high-protein food source.
 
 **1.3.3. Sensor-based Monitoring**
 
