@@ -281,12 +281,12 @@ Validate that the biosensor can reliably detect concentrations at or below 0.075
 
 Several risks have been identified that could impact the timeline of the project:
 | **Risk** | **Consequence** | **Mitigation** |
-| :---: | :---: | :---: |
+| :---------- | :---------- | :---------- |
 | Contamination in cyanobacteria culture | Unable to create calibration curve | Maintain backup culture past the phase |
 | Duckweed death | Unable to conduct field testing | Maintain backup culture past the phase |
 | Cyanobacteria density not dense enough for sensing | Sensor unable to provide reliable readings for analysis | Centrifuge to concentrate the cyanobacteria culture and more growth medium |
-| Prototype components not delivered in time | Unable to build prototype | Explore alternative local suppliers (even at a higher cost) and push back the testing phase|
-| Components failure/destroyed during assembly | Biosensor unable to function. Getting the components again may lead to delay in timeline | Buy spare supplies and explore alternative materials|
+| Prototype components not delivered in time | Unable to build prototype | Explore alternative local suppliers (even at a higher cost) and push back the testing phase | 
+| Components failure/destroyed during assembly | Biosensor unable to function. Getting the components again may lead to delay in timeline | Buy spare supplies and explore alternative materials |
 
 <br> **5.3. Laboratory Use**
 
