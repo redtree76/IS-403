@@ -63,7 +63,9 @@ Shifting indoor farm production towards microgreens instead of traditional leafy
 
 Furthermore, microgreens offer better commercial viability. While indoor farms have traditionally focused on Asian leafy greens to match consumer preferences, these crops are often difficult to cultivate indoors and yield lower profit margins. (Tham, 2024) By incorporating microgreens alongside locally familiar vegetables, indoor farms can improve both the nutritional quality and profitability of their produce, while better meeting consumer expectations for pricing and variety. (EDB, 2025)
 
-Our microgreen of choice is duckweed. Duckweed is a novel food
+Our microgreen of choice is duckweed, a rapidly growing and high-protein food source. It has 20-35g of protein per 100g dry weight. (Appenroth et al., 2017) In comparison, Pak Choi, a locally familiar vegetable, contains about 1.4g of protein per 100g fresh weight which corresponds to about 18g of protein per 100g dry weight. (WebMD, n.d.) 
+While duckweed doubles in biomass within 3 days so it can be harvested a few times a week (ScienceDirect, 2016), Pak Choi can only be harvested every 3 weeks. (NParks, 2023) Thus, cultivating duckweed allows indoor farms to produce more protein quickly and easily. Already consumed in countries such as Thailand, duckweed demonstrates considerable potential as a future food ingredient. (Zięć et al., 2025) With continued research and development, it could play a valuable role in promoting nutritious diets while providing a highly productive alternative to traditional greens. 
+
 
 **1.3.3. Sensor-based Monitoring**
 
