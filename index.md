@@ -89,14 +89,9 @@ Our target users are small and medium enterprises (SMEs) indoor farms in Singapo
 
 **2.3.1. Practical Considerations** 
 
- | Item | Price | Quantity |
-| :--- | :---: | ---: |
-| **Affordability** | $1.00 | 5 |
-| **Portability** | $0.50 | 12 |
-| **Ease of use** | $1.25 | 8 |
 
-| Item | Price |
-| :--- | :---: |
+| |  |
+| :--- | :--- |
 |  **Affordability** | The unit price should remain below SGD $1,000 to ensure accessibility for SMEs to encourage adoption. The lowest price on the market is USD 1,995. (Appendix) |
 |  **Portability** | The sensor must be compact and lightweight to support relocation within multi-tank facilities. Transfers should be quick and non-disruptive to farming operations.  |
 | **Ease of use** | The sensor should be simple to operate for users with minimal technical training. Sensor readings and real-time cyanobacteria concentrations must be easily accessible and clearly interpreted. This includes an intuitive user interface, clear display of results and guided workflow. Furthermore, users can collect readings without disturbing the duckweed or water system.  |
