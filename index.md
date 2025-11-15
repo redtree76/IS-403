@@ -5,7 +5,7 @@ layout: home
 
 **CDE4301 IS-403**
 
-## 1. Introduction
+## 1. Introduction (Shannen) 
 **1.1 Food Insecurity**
 
 Food insecurity is the lack of consistent access to enough safe and nutritious food for normal growth and development. (Anthem, 2025) It prevents people from maintaining an active and healthy lifestyle. There are a multitude of factors that plague communities and contribute to food insecurity. Examples include climate change affecting crop yields, poverty limiting people’s ability to afford food, conflicts and wars disrupting food supply chains and poor infrastructure making it harder for food to reach those in need. (World Food Program USA, 2025)
@@ -77,17 +77,17 @@ Decision-making in indoor farms can be improved by leveraging real-time data col
 Cyanobacteria can establish populations in the water during duckweed cultivation. Even at concentrations as low as 0.075µg/mL, cyanobacteria significantly reduce duckweed growth and chlorophyll content. (Saqrane et al., 2007) Duckweed is a free floating plant and cyanobacteria at these concentrations often remain at the water surface alongside the plants. (Delgopiatof et al., 2024) Thus, it is important to maintain low cyanobacteria levels in cultivation systems to optimize duckweed growth and protein yield.
 
 # 2. Design Product
-**2.1. Value Proposition** 
+**2.1. Value Proposition** (Jingten) 
 
 Our goal of the project and value proposition is: to develop a low-cost real-time optical sensor with an integrated filter to prevent cyanobacteria growth in indoor duckweed farms. 
 
-**2.2. Stakeholder Analysis**
+**2.2. Stakeholder Analysis** (Jingten)
 
 As indoor farms struggle to remain viable due to the high cost of set up and extensive energy demand, we aim to create a low cost sensor for SME indoor farms that allows them to integrate smart agriculture to increase yield and reduce loss. 
 
 We were inspired by Dr. Yuchen Long’s research on duckweed, and through the conversation we learnt the negative impact of phytoplankton contamination in duckweed tanks may take over the space and greatly compete with duckweed for available nutrients and space. However, as both duckweed and cyanobacteria use the same nutrients for growth, without the use of algaecide, it is difficult to eliminate cyanobacteria. He mentioned that it is crucial to promote duckweed growth at an early stage as it could suppress cyanobacteria proliferation by taking up the nutrient and light required for photosynthesis and cyanobacteria. This could be applied in indoor duckweed farms, as cyanobacteria growth is commonly found in hydroponics systems.
 
-**2.3. Design Requirements**
+**2.3. Design Requirements** (Shannen) 
 
 Our target users are small and medium enterprises (SMEs) indoor farms in Singapore. We aim to provide a solution that is affordable, easy to maintain and simple to operate, while ensuring reliable detection performance. To meet these goals, the design of our optical cyanobacteria sensor is guided by the following considerations: 
 
@@ -122,9 +122,9 @@ Our proposed design is made out of three components.
 |  **Calibration and Processing** | Translates the absorbance readings measured by the sensor into cyanobacteria count.  |
 | **Filter** | Removes the cyanobacteria from the duckweed tank.  |
 
-**3.1 Sensor**
+**3.1 Sensor** 
 
-**3.1.1. State-of-the-Art Review**
+**3.1.1. State-of-the-Art Review** (Jingten)
 
 Monitoring cyanobacteria is critical in water quality management and agriculture. However, most existing methods are designed for large scale environments like lakes, reservoirs and drinking water systems, and their application to compact, controlled setups like indoor duckweed farms remains limited. Current methods that are commonly used suffer from the trade-off between convenience and accuracy. 
 	
@@ -136,7 +136,7 @@ Currently most optical sensors used for field research are fluorescence-based. W
 	
 To simplify the complex system and lower the cost of production, our project focuses on absorbance-based sensors. While it has lower accuracy compared to the fluorescence-based sensor, it is a necessary trade-off for it to address the limitation of cost and complexity in existing sensor systems.
 
-**3.1.2. Development of the Optical Sensor**
+**3.1.2. Development of the Optical Sensor** (Isaac)
 
 We have developed 4 concepts and will assess which concept best addresses the design requirements.
 
@@ -156,12 +156,12 @@ Separated External Battery
 |  **Separated External** | Separated External Line Power | Separated External Battery |
 
 
-**3.1.3. Points of Consideration**
+**3.1.3. Points of Consideration** (Isaac) 
 
 Location of the sensor (depth)
 Numbers of sampling sites
 
-**3.2. Calibration Curve Relating Absorbance and Concentration of Cyanobacteria**
+**3.2. Calibration Curve Relating Absorbance and Concentration of Cyanobacteria** (Shannen) 
 
 **3.2.1. Cell Culture**
 
@@ -205,20 +205,20 @@ Plot absorbance against cell concentration to obtain a calibration curve.
 
 
 
-**3.2.5. Reading Processing**
+**3.2.5. Reading Processing** (Jingten)
 
 The absorbance at specific wavelengths associated with cyanobacterial pigments will be processed to estimate cyanobacterial density through an analytical workflow using the calibration curve obtained. First, the raw absorbance data is corrected for background interference by subtracting non-specific signals from blank readings, caused by turbidity or dissolved organic matter from duckweed growth to ensure specific absorbance. The corrected value is applied to the calibration curve obtained using known concentration of cyanobacteria, which defines the mathematical relationship between absorbance and bacteria density through the Beer-Lambert Law. The sensor outputs a real-time estimate of cyanobacterial density, which will be displayed at the side of the tank with an optional alert system when threshold density is exceeded. This enables farmers to monitor cyanobacteria dynamics continuously and intervene before the bacteria contamination affects duckweed health. 
 
 
-**3.3 Removal and Management of Detected Cyanobacteria**
+**3.3. Removal and Management of Detected Cyanobacteria** (Jingten)
 
 3.3.1. Filter
 
-**3.3.2 Management of Cyanobacteria**
+**3.3.2. Management of Cyanobacteria**
 
 Current cyanobacteria is managed by 
 
-# 4. Validation of Design
+# 4. Validation of Design (Jingten)
 
 4.1. Cyanobacteria and Duckweed Growth 
 Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank. 
@@ -255,7 +255,7 @@ With an undisturbed duckweed tank as control, measure the impact of integrating 
 Additional mitigation method for cyanobacteria in the water tank should also be studied for their effects on the duckweed growth, which is quantified by the following criteria: duckweed growth rate (doubling time), dry mass, total mass, and dormant turion formation in duckweed with
 Using the appropriate environmental conditions and growth medium, allow duckweed and cyanobacteria to grow in a tank.
 
-# 5. Project Plan
+# 5. Project Plan (Jingten)
 5.1. Gantt Chart
 The Gantt Chart outlines the timeline for the prototyping and testing phase of the project to be carried out in the next semester over 10 weeks. To optimize for efficiency, the biosensor hardware development is carried out concurrently with biological preparations (sample cultivation). While the testing span throughout the whole chart due to the duckweed tank setup, testing the biosensor hinges on the design and assembly of the biosensor. Therefore, activities with high priority are carried out at the start of the prototyping phase.
 
